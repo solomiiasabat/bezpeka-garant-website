@@ -1,7 +1,30 @@
+:root {
+  --main-blue: #005eb2;
+  --main-yellow: #ffcc00;
+}
+
+.navbar,
+footer {
+  background-color: var(--main-blue);
+  color: white;
+}
+
 footer ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.navbar a,
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--main-yellow);
+  transition: all 200ms ease-in-out;
+  text-decoration: underline;
 }
 
 .footer-logo img {
