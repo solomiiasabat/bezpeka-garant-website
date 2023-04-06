@@ -9,22 +9,50 @@
 .App {
   font-family: "Mulish", sans-serif;
 }
+
+/*SERVICES*/
+
 .services {
   margin-top: 150px;
   margin-bottom: 100px;
 }
 
-.service-description {
-  margin-top: -38px;
-  margin-left: 70px;
+.service-chapter-title {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.service-unit {
+  background-color: var(--main-blue);
+  color: var(--text-light);
+  border: 1px solid var(--main-blue);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.service-unit:hover {
+  background-color: white;
+  color: var(--main-blue);
+  border: 1px solid var(--main-blue);
+  border-radius: 20px;
+  transition: all 200ms ease-in-out;
 }
 
 .service-icon {
-  background-color: var(--main-blue);
-  border: 15px solid var(--main-blue);
-  border-radius: 50%;
   color: var(--main-yellow);
 }
+
+.service-name {
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.service-description {
+  font-size: 14px;
+}
+
+/*NAVBAR*/
+
 .navbar,
 footer {
   background-color: var(--main-blue);
@@ -43,6 +71,8 @@ footer a {
   text-decoration: none;
 }
 
+/*FOOTER*/
+
 footer a:hover {
   color: var(--main-yellow);
   transition: all 200ms ease-in-out;
@@ -58,16 +88,11 @@ footer .footer-pagecontent-list,
   margin-top: 10px;
 }
 
-.footer-contacts {
-  margin-left: -10px;
-}
-
-.footer-pagecontent-list,
+.footer-pagecontent-list li,
 .footer-contacts li {
   padding-bottom: 20px;
 }
 
-.footer-pagecontent-list,
-li {
-  padding-bottom: 20px;
+.footer-contacts li {
+  margin-left: -25px;
 }
