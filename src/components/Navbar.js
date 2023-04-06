@@ -5,7 +5,7 @@ export default function Navbar() {
         <a className="navbar-brand  ms-5" href="#">
           <img src="logo1.png" alt="Logo" width="50" height="50"></img>
         </a>
-        <ul className="navbar-nav me-auto ms-5 mt-4 mb-lg-0">
+        <ul className="navbar-nav me-auto ms-5 mt-4 mb-3">
           <li className="nav-item me-3">
             <a className="nav-link" aria-current="page" href="#">
               Про компанію
