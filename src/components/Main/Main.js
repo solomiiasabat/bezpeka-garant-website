@@ -6,7 +6,15 @@ export default function Main() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col"></div>
+        <div className="col mt-5 company-slogan-button">
+          <div className="row mt-5 company-name">
+            Охоронні послуги ТОВ "Безпека-Гарант"
+          </div>
+          <div className="row mt-3 slogan">З нами безпечно!</div>
+          <div className="row mt-4 connect-button">
+            <button className="connect-button">Підключити</button>
+          </div>
+        </div>
         <div
           id="carouselExampleAutoplaying"
           className="col carousel slide"
@@ -18,8 +26,8 @@ export default function Main() {
                 src={photo1}
                 className="d-block"
                 alt="photo1"
-                width={800}
-                height={507}
+                width={730}
+                height={450}
               ></img>
             </div>
             <div className="carousel-item">
@@ -27,8 +35,8 @@ export default function Main() {
                 src={photo2}
                 className="d-block"
                 alt="photo2"
-                width={881}
-                height={507}
+                width={730}
+                height={450}
               ></img>
             </div>
           </div>

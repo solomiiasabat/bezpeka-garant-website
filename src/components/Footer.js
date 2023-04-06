@@ -57,7 +57,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="col-5 mt-4 mb-2">
+          <div className="col-5 mt-4 mb-2 location">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5210.20724417679!2d28.450615677938686!3d49.236524563540385!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472d5c8479dad871%3A0x73f214be698efb52!2z0LLRg9C70LjRhtGPINCc0LDQs9GW0YHRgtGA0LDRgtGB0YzQutCwLCAxNTgsINCS0ZbQvdC90LjRhtGPLCDQktGW0L3QvdC40YbRjNC60LAg0L7QsdC70LDRgdGC0YwsIDIxMDAw!5e0!3m2!1suk!2sua!4v1680539788635!5m2!1suk!2sua"
               width="480"

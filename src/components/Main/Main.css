@@ -1,2 +1,35 @@
-.container {
+:root {
+  --main-blue: #005eb2;
+  --main-yellow: #ffcc00;
+  --text-light: aliceblue;
+}
+
+.company-slogan-button {
+  margin-top: 10%;
+}
+
+.slogan {
+  font-weight: bold;
+  font-size: 42px;
+  text-align: center;
+}
+
+.connect-button {
+  width: 200px;
+  height: 50px;
+  background-color: var(--main-blue);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.connect-button:hover {
+  background-color: transparent;
+  border: 1px solid var(--main-blue);
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+  color: var(--main-blue);
 }

@@ -1,11 +1,11 @@
 export default function Navbar() {
   return (
-    <nav className="navbar sticky-top bg-body-tertiary navbar-expand-lg">
+    <nav className="navbar sticky-top  navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand  ms-4" href="#">
+        <a className="navbar-brand  ms-5" href="#">
           <img src="logo1.png" alt="Logo" width="50" height="50"></img>
         </a>
-        <ul className="navbar-nav me-auto ms-5 mb-2 mb-lg-0">
+        <ul className="navbar-nav me-auto ms-5 mt-4 mb-lg-0">
           <li className="nav-item me-3">
             <a className="nav-link" aria-current="page" href="#">
               Про компанію
