@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header/Header.js";
-import Services from "./components/Services";
+import Main from "./components/Main";
 import Footer from "./components/Footer";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-      <Services />
+      <Main />
       <Footer />
     </div>
   );
