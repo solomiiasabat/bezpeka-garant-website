@@ -1,4 +1,12 @@
+import { Link } from "react-scroll";
+
 export default function Navbar() {
+  function openBar() {
+    const bar = document.querySelector(".navbar-nav");
+
+    bar.classList.toggle("opened");
+  }
+
   return (
     <nav className="navbar sticky-top  navbar-expand-lg">
       <div className="container-fluid">
@@ -12,9 +20,19 @@ export default function Navbar() {
             </a>
           </li>
           <li className="nav-item ms-3 me-3">
-            <a className="nav-link" href="#">
+            <Link
+              className="nav-link"
+              aria-current="page"
+              onClick={openBar}
+              activeClass="active"
+              to="services"
+              spy={true}
+              smooth={true}
+              duration={50}
+              offset={-110}
+            >
               Послуги
-            </a>
+            </Link>
           </li>
           <li className="nav-item ms-3 me-3">
             <a className="nav-link" href="#">
