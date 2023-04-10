@@ -33,3 +33,22 @@
   transition: all 200ms ease-in-out;
   color: var(--main-blue);
 }
+
+.phone-icon-button {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  left: calc(100% - 150px);
+  background-color: var(--main-yellow);
+  border: 1px solid transparent;
+  border-radius: 100px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+  color: var(--main-blue);
+}
+
+.phone-icon-button:hover {
+  background-color: var(--text-light);
+  border: 1px solid var(--main-blue);
+  transition: all 200ms ease-in-out;
+}
