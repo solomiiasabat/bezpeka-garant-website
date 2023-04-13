@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 export default function ModalMain(props) {
+  const [enterNumber, setEnterNumber] = useState("");
+
+  const handleChange = (e) => {
+    const value = e.target.value.replace(/\D/g, "");
+    setEnterNumber(value);
+  };
+
   if (!props.open) return null;
 
   return (
@@ -19,6 +26,8 @@ export default function ModalMain(props) {
             type="phone"
             placeholder="+380 ..."
             className="number-bar me-2 p-2"
+            value={enterNumber}
+            onChange={handleChange}
           ></input>
           <input
             type="submit"
