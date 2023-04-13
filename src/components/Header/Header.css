@@ -52,3 +52,61 @@
   border: 1px solid var(--main-blue);
   transition: all 200ms ease-in-out;
 }
+
+.main-modal {
+  background-color: #ededf0;
+  border: 1px solid var(--main-blue);
+  color: var(--main-blue);
+  position: fixed;
+  top: 23%;
+  padding: 20px;
+  width: 75%;
+  height: 65%;
+  margin-left: 8%;
+  text-align: left;
+  z-index: 1;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.exit {
+  float: right;
+  border: none;
+  color: var(--main-blue);
+}
+
+.exit:hover {
+  color: var(--main-yellow);
+  transition: all 200ms ease-in-out;
+}
+
+.question-and-form {
+  display: inline-block;
+}
+
+.number-bar {
+  width: 50%;
+}
+
+.callMe-button {
+  background-color: var(--main-blue);
+  border: 1px solid var(--main-blue);
+  border-radius: 5px;
+  color: var(--text-light);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+}
+
+.callMe-button:hover {
+  background-color: transparent;
+  color: var(--main-blue);
+  transition: all 200ms ease-in-out;
+}
+
+.text-under-form {
+  opacity: 0.8;
+}
+
+#carouselExampleAutoplaying {
+  z-index: -1;
+}

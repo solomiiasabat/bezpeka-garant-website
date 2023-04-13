@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import "./Header.css";
+import Modal from "./Modal/Modal";
 import photo1 from "./photos/photo1.png";
 import photo2 from "./photos/photo2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,7 +9,9 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 export default function Header() {
   const containerRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
 
+  //FUNCTIONS FOR CHANGING THE BUTTON FORM AFTER SCROLLING
   const callbackFunction = (entries) => {
     const [entry] = entries;
     setIsVisible(entry.isIntersecting);
@@ -28,6 +31,15 @@ export default function Header() {
     };
   }, [containerRef, options]);
 
+  // FUNCTIONS FOR OPENING AND CLOSING A MODAL WINDOW
+  function handleOpen() {
+    setOpenModal(true);
+  }
+
+  function handleClose() {
+    setOpenModal(false);
+  }
+
   return (
     <header>
       <div className="container">
@@ -38,11 +50,27 @@ export default function Header() {
             </div>
             <div className="row mt-3 slogan">З нами безпечно!</div>
             {isVisible ? (
-              <button className="connect-button mt-4">Підключити</button>
+              <div>
+                <button className="connect-button mt-4" onClick={handleOpen}>
+                  Підключити
+                </button>
+                <Modal
+                  open={openModal}
+                  close={handleClose}
+                  className="main-modal"
+                />
+              </div>
             ) : (
-              <button className="phone-icon-button mt-4">
-                <FontAwesomeIcon icon={faPhone} shake size="xl" />
-              </button>
+              <div>
+                <button className="phone-icon-button mt-4" onClick={handleOpen}>
+                  <FontAwesomeIcon icon={faPhone} shake size="xl" />
+                </button>
+                <Modal
+                  open={openModal}
+                  close={handleClose}
+                  className="main-modal"
+                />
+              </div>
             )}
           </div>
 
