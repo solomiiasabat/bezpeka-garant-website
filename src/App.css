@@ -73,10 +73,10 @@ footer a {
 
 /*FOOTER*/
 
+.navbar a:hover,
 footer a:hover {
   color: var(--main-yellow);
   transition: all 200ms ease-in-out;
-  text-decoration: underline;
 }
 
 .footer-logo img {
