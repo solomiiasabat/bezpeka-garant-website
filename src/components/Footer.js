@@ -23,9 +23,7 @@ export default function Footer() {
 
           <div className="col-3 mt-4">
             <ul className="footer-pagecontent-list">
-              <li>
-                <a>Про компанію</a>
-              </li>
+              <li>Про компанію</li>
               <li>
                 <Link
                   className="nav-link"
@@ -41,15 +39,9 @@ export default function Footer() {
                   Послуги
                 </Link>
               </li>
-              <li>
-                <a>Ціни</a>
-              </li>
-              <li>
-                <a>Інструкція з використання</a>
-              </li>
-              <li>
-                <a>Контакти</a>
-              </li>
+              <li>Ціни</li>
+              <li>Інструкція з використання</li>
+              <li>Контакти</li>
             </ul>
           </div>
 
