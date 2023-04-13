@@ -1,9 +1,17 @@
+import { Link } from "react-scroll";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
+  function openBar() {
+    const bar = document.querySelector(".footer-pagecontent-list");
+
+    bar.classList.toggle("opened");
+  }
+
   return (
     <footer>
       <div className="container">
@@ -19,7 +27,19 @@ export default function Footer() {
                 <a>Про компанію</a>
               </li>
               <li>
-                <a>Послуги</a>
+                <Link
+                  className="nav-link"
+                  aria-current="page"
+                  onClick={openBar}
+                  activeClass="active"
+                  to="services"
+                  spy={true}
+                  smooth={true}
+                  duration={50}
+                  offset={-110}
+                >
+                  Послуги
+                </Link>
               </li>
               <li>
                 <a>Ціни</a>
