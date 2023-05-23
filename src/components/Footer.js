@@ -71,13 +71,14 @@ export default function Footer() {
 
           <div className="col-5 mt-4 mb-2 location">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5210.20724417679!2d28.450615677938686!3d49.236524563540385!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472d5c8479dad871%3A0x73f214be698efb52!2z0LLRg9C70LjRhtGPINCc0LDQs9GW0YHRgtGA0LDRgtGB0YzQutCwLCAxNTgsINCS0ZbQvdC90LjRhtGPLCDQktGW0L3QvdC40YbRjNC60LAg0L7QsdC70LDRgdGC0YwsIDIxMDAw!5e0!3m2!1suk!2sua!4v1680539788635!5m2!1suk!2sua"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5210.274222369511!2d28.446605412460453!3d49.2358896082366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472d5b7b3f65d3cb%3A0x691af8f9ff1dd84b!2z0JHQtdC30L_QtdC60LAt0JPQsNGA0LDQvdGC!5e0!3m2!1suk!2sua!4v1684843047658!5m2!1suk!2sua"
               width="480"
               height="300"
               style={{ border: "0" }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              title="location"
             ></iframe>
           </div>
         </div>

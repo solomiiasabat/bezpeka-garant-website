@@ -74,7 +74,8 @@ footer a {
 /*FOOTER*/
 
 .navbar a:hover,
-footer a:hover {
+footer a:hover,
+footer li:hover {
   color: var(--main-yellow);
   transition: all 200ms ease-in-out;
 }
