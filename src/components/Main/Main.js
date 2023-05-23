@@ -1,4 +1,4 @@
-import Services from "./Services.js";
+import Services from "./components/Services";
 
 export default function Main() {
   return (
