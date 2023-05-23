@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBuildingLock } from "@fortawesome/free-solid-svg-icons";
 import { faLandMineOn } from "@fortawesome/free-solid-svg-icons";
 import { faShieldHalved } from "@fortawesome/free-solid-svg-icons";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
