@@ -9,21 +9,51 @@
 .App {
   font-family: "Mulish", sans-serif;
 }
+/*ABOUT COMPANY + SERVICES + SECURITYSYSTEMS + PRICES*/
 
-/*SERVICES*/
-
-.services {
-  margin-top: 150px;
+.aboutCompany,
+.services,
+.securitySystems,
+.prices {
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
-.service-chapter-title {
+.aboutCompany-chapter-title,
+.service-chapter-title,
+.securitySystems-chapter-title,
+.prices-chapter-title {
   font-weight: bold;
   font-size: 45px;
 }
 
+/*ABOUT COMPANY*/
+.aboutCompany,
+.securitySystems {
+  background-color: rgb(0, 94, 178, 0.9);
+  color: var(--text-light);
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.info-aboutCompany {
+  font-size: 15px;
+}
+
+.companyName {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.highlighted {
+  color: var(--main-yellow);
+  font-weight: bold;
+}
+
+/*SERVICES*/
 .service-unit {
   background-color: var(--main-blue);
+  padding-bottom: 20px;
   color: var(--text-light);
   border: 1px solid var(--main-blue);
   border-radius: 20px;
@@ -38,6 +68,10 @@
   transition: all 200ms ease-in-out;
 }
 
+.secondary-text {
+  font-size: 13px;
+}
+
 .service-icon {
   color: var(--main-yellow);
 }
@@ -49,6 +83,48 @@
 
 .service-description {
   font-size: 14px;
+}
+
+/*PRICES*/
+.connect-prices-button {
+  width: 250px;
+  height: 60px;
+  background-color: var(--main-blue);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.connect-prices-button:hover {
+  background-color: transparent;
+  border: 1px solid var(--main-blue);
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+  color: var(--main-blue);
+}
+
+.modal-prices {
+  background-color: #ededf0;
+  border: 1px solid var(--main-blue);
+  color: var(--main-blue);
+  position: fixed;
+  top: 23%;
+  padding: 20px;
+  width: 75%;
+  height: 65%;
+  margin-left: 8%;
+  text-align: left;
+  z-index: 1;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.important-text {
+  font-weight: bold;
 }
 
 /*NAVBAR*/
@@ -78,6 +154,7 @@ footer a:hover,
 footer li:hover {
   color: var(--main-yellow);
   transition: all 200ms ease-in-out;
+  cursor: pointer;
 }
 
 .footer-logo img {
