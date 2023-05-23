@@ -6,7 +6,7 @@ export default function ModalMain(props) {
   const [enterNumber, setEnterNumber] = useState("");
 
   const handleChange = (e) => {
-    const value = e.target.value.replace(/\D/g, "");
+    const value = e.target.value.replace(/[^+,0-9]/g, "");
     setEnterNumber(value);
   };
 
@@ -29,6 +29,7 @@ export default function ModalMain(props) {
             value={enterNumber}
             onChange={handleChange}
           ></input>
+
           <input
             type="submit"
             className="callMe-button"
