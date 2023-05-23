@@ -15,9 +15,19 @@ export default function Navbar() {
         </a>
         <ul className="navbar-nav me-auto ms-5 mt-4 mb-3">
           <li className="nav-item me-3">
-            <a className="nav-link" aria-current="page" href="#">
+            <Link
+              className="nav-link"
+              aria-current="page"
+              onClick={openBar}
+              activeClass="active"
+              to="aboutCompany"
+              spy={true}
+              smooth={true}
+              duration={50}
+              offset={-90}
+            >
               Про компанію
-            </a>
+            </Link>
           </li>
           <li className="nav-item ms-3 me-3">
             <Link
@@ -35,14 +45,34 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="nav-item ms-3 me-3">
-            <a className="nav-link" href="#">
+            <Link
+              className="nav-link"
+              aria-current="page"
+              onClick={openBar}
+              activeClass="active"
+              to="prices"
+              spy={true}
+              smooth={true}
+              duration={50}
+              offset={-120}
+            >
               Ціни
-            </a>
+            </Link>
           </li>
           <li className="nav-item ms-3 me-3">
-            <a className="nav-link" href="#">
-              Контакти
-            </a>
+            <Link
+              className="nav-link"
+              aria-current="page"
+              onClick={openBar}
+              activeClass="active"
+              to="footer"
+              spy={true}
+              smooth={true}
+              duration={50}
+              offset={-110}
+            >
+              <a>Контакти</a>
+            </Link>
           </li>
         </ul>
         <span className="tel-number me-4">

@@ -14,7 +14,7 @@ export default function Footer() {
 
   return (
     <footer>
-      <div className="container">
+      <div className="footer container">
         <div className="row">
           <div className="col-1 mt-4 footer-logo">
             {" "}
@@ -23,7 +23,21 @@ export default function Footer() {
 
           <div className="col-3 mt-4">
             <ul className="footer-pagecontent-list">
-              <li>Про компанію</li>
+              <li>
+                <Link
+                  className="nav-link"
+                  aria-current="page"
+                  onClick={openBar}
+                  activeClass="active"
+                  to="aboutCompany"
+                  spy={true}
+                  smooth={true}
+                  duration={50}
+                  offset={-80}
+                >
+                  Про компанію
+                </Link>
+              </li>
               <li>
                 <Link
                   className="nav-link"
@@ -39,7 +53,21 @@ export default function Footer() {
                   Послуги
                 </Link>
               </li>
-              <li>Ціни</li>
+              <li>
+                <Link
+                  className="nav-link"
+                  aria-current="page"
+                  onClick={openBar}
+                  activeClass="active"
+                  to="prices"
+                  spy={true}
+                  smooth={true}
+                  duration={50}
+                  offset={-120}
+                >
+                  Ціни
+                </Link>
+              </li>
               <li>Інструкція з використання</li>
               <li>Контакти</li>
             </ul>
