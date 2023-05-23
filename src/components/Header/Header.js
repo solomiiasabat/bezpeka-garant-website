@@ -44,36 +44,6 @@ export default function Header() {
     <header>
       <div className="container">
         <div className="row">
-          <div className="col mt-5 company-slogan-button">
-            <div className="row mt-5 company-name" ref={containerRef}>
-              Охоронні послуги ТОВ "Безпека-Гарант"
-            </div>
-            <div className="row mt-3 slogan">З нами безпечно!</div>
-            {isVisible ? (
-              <div>
-                <button className="connect-button mt-4" onClick={handleOpen}>
-                  Підключити
-                </button>
-                <Modal
-                  open={openModal}
-                  close={handleClose}
-                  className="main-modal"
-                />
-              </div>
-            ) : (
-              <div>
-                <button className="phone-icon-button mt-4" onClick={handleOpen}>
-                  <FontAwesomeIcon icon={faPhone} shake size="xl" />
-                </button>
-                <Modal
-                  open={openModal}
-                  close={handleClose}
-                  className="main-modal"
-                />
-              </div>
-            )}
-          </div>
-
           <div
             id="carouselExampleAutoplaying"
             className="col carousel slide"
@@ -85,7 +55,7 @@ export default function Header() {
                   src={photo1}
                   className="d-block"
                   alt="photo1"
-                  width={730}
+                  width={650}
                   height={450}
                 ></img>
               </div>
@@ -94,7 +64,7 @@ export default function Header() {
                   src={photo2}
                   className="d-block"
                   alt="photo2"
-                  width={730}
+                  width={650}
                   height={450}
                 ></img>
               </div>
@@ -123,6 +93,36 @@ export default function Header() {
               ></span>
               <span className="visually-hidden">Наступне</span>
             </button>
+          </div>
+
+          <div className="col mt-5 pt-3 ps-5 company-slogan-button">
+            <div className="row mt-5 company-name" ref={containerRef}>
+              Охоронні послуги ТОВ "Безпека-Гарант"
+            </div>
+            <div className="row mt-3 slogan">З нами безпечно!</div>
+            {isVisible ? (
+              <div>
+                <button className="connect-button mt-4" onClick={handleOpen}>
+                  Підключити
+                </button>
+                <Modal
+                  open={openModal}
+                  close={handleClose}
+                  className="main-modal"
+                />
+              </div>
+            ) : (
+              <div>
+                <button className="phone-icon-button mt-4" onClick={handleOpen}>
+                  <FontAwesomeIcon icon={faPhone} shake size="xl" />
+                </button>
+                <Modal
+                  open={openModal}
+                  close={handleClose}
+                  className="main-modal"
+                />
+              </div>
+            )}
           </div>
         </div>
       </div>
