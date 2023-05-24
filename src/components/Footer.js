@@ -16,12 +16,12 @@ export default function Footer() {
     <footer>
       <div className="footer container">
         <div className="row">
-          <div className="col-1 mt-4 footer-logo">
+          <div className="col mt-4 footer-logo">
             {" "}
             <img src="logo1.png" alt="small logo" width="80" height="80"></img>
           </div>
 
-          <div className="col-3 mt-4">
+          <div className="col mt-4">
             <ul className="footer-pagecontent-list">
               <li>
                 <Link
@@ -73,7 +73,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="col-3 mt-4">
+          <div className="col mt-4">
             <ul className="footer-contacts">
               <li>
                 {" "}
@@ -97,7 +97,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="col-5 mt-4 mb-2 location">
+          <div className="col mt-4 mb-2 location">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5210.274222369511!2d28.446605412460453!3d49.2358896082366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472d5b7b3f65d3cb%3A0x691af8f9ff1dd84b!2z0JHQtdC30L_QtdC60LAt0JPQsNGA0LDQvdGC!5e0!3m2!1suk!2sua!4v1684843047658!5m2!1suk!2sua"
               width="480"

@@ -158,7 +158,7 @@ footer li:hover {
 }
 
 .footer-logo img {
-  margin-left: -28px;
+  margin-left: -80%;
 }
 
 footer .footer-pagecontent-list,
@@ -172,5 +172,13 @@ footer .footer-pagecontent-list,
 }
 
 .footer-contacts li {
-  margin-left: -25px;
+  margin-left: -145px;
+}
+
+.footer-pagecontent-list {
+  margin-left: -120%;
+}
+
+.location {
+  margin-right: -15%;
 }
