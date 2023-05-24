@@ -58,11 +58,11 @@
   border: 1px solid var(--main-blue);
   color: var(--main-blue);
   position: fixed;
-  top: 23%;
+  top: 18%;
   padding: 20px;
   width: 75%;
   height: 65%;
-  margin-left: -48%;
+  margin-left: -40%;
   text-align: left;
   z-index: 1;
   text-align: center;
