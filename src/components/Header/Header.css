@@ -4,6 +4,10 @@
   --text-light: aliceblue;
 }
 
+.header {
+  padding-top: 5%;
+}
+
 .company-slogan-button {
   margin-top: 10%;
 }
