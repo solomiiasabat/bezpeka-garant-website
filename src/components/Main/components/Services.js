@@ -61,9 +61,7 @@ export default function Services() {
             size="2xl"
             className="service-icon mt-4 ms-3 me-2"
           />{" "}
-          <h5 className="service-name ms-3 me-2">
-            Охорона квартир, будинків, об'єктів
-          </h5>
+          <h5 className="service-name ms-3 me-2">Охорона публічних заходів</h5>
         </div>
 
         {/*SERVICE 5 */}
@@ -73,7 +71,9 @@ export default function Services() {
             size="2xl"
             className="service-icon mt-4 ms-3 me-2"
           />{" "}
-          <h5 className="service-name ms-3 me-2">Охорона публічних заходів</h5>
+          <h5 className="service-name ms-3 me-2">
+            Охорона квартир, будинків, об'єктів всіх форм власності
+          </h5>{" "}
         </div>
       </div>
     </div>
