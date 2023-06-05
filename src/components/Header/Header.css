@@ -4,12 +4,21 @@
   --text-light: aliceblue;
 }
 
-.header {
-  padding-top: 5%;
+div.header.container {
+  margin: 0 200px;
 }
 
-.company-slogan-button {
+.header {
+  padding-top: 2%;
+}
+
+div.company-slogan-button {
   margin-top: 10%;
+  margin-right: -10px;
+}
+
+.company-name {
+  font-size: 22px;
 }
 
 .slogan {
@@ -20,12 +29,13 @@
 
 .connect-button {
   width: 200px;
-  height: 50px;
+  height: 60px;
   background-color: var(--main-blue);
   border: 1px solid transparent;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
+  font-size: 20px;
   font-weight: 500;
   color: var(--text-light);
 }
@@ -49,6 +59,7 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
   color: var(--main-blue);
+  margin-top: 18%;
 }
 
 .phone-icon-button:hover {
@@ -64,9 +75,9 @@
   position: fixed;
   top: 18%;
   padding: 20px;
-  width: 75%;
+  width: 80%;
   height: 65%;
-  margin-left: -40%;
+  margin-left: -46%;
   text-align: left;
   z-index: 1;
   text-align: center;

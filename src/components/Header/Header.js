@@ -1,8 +1,10 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect, useState, useMemo } from "react";
 import "./Header.css";
 import Modal from "./Modal/Modal";
 import photo1 from "./photos/photo1.png";
 import photo2 from "./photos/photo2.png";
+import photo3 from "./photos/photo3.png";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
@@ -16,18 +18,21 @@ export default function Header() {
     const [entry] = entries;
     setIsVisible(entry.isIntersecting);
   };
-  const options = {
-    root: null,
-    rootMargin: "-5px",
-    threshold: 1.0,
-  };
+  const options = useMemo(() => {
+    return {
+      root: null,
+      rootMargin: "22px",
+      threshold: 1.0,
+    };
+  }, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(callbackFunction, options);
-    if (containerRef.current) observer.observe(containerRef.current);
+    const variable = containerRef.current;
+    if (variable) observer.observe(variable);
 
     return () => {
-      if (containerRef.current) observer.unobserve(containerRef.current);
+      if (variable) observer.unobserve(variable);
     };
   }, [containerRef, options]);
 
@@ -42,21 +47,21 @@ export default function Header() {
 
   return (
     <header>
-      <div className="container">
+      <div className="header container">
         <div className="row">
           <div
             id="carouselExampleAutoplaying"
-            className="col carousel slide"
+            className="col-8 carousel slide"
             data-bs-ride="carousel"
           >
             <div className="carousel-inner">
-              <div className="carousel-item active">
+              <div className="carousel-item  active">
                 <img
                   src={photo1}
                   className="d-block"
                   alt="photo1"
-                  width={650}
-                  height={450}
+                  width={900}
+                  height={620}
                 ></img>
               </div>
               <div className="carousel-item">
@@ -64,8 +69,17 @@ export default function Header() {
                   src={photo2}
                   className="d-block"
                   alt="photo2"
-                  width={650}
-                  height={450}
+                  width={900}
+                  height={620}
+                ></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  src={photo3}
+                  className="d-block"
+                  alt="photo2"
+                  width={900}
+                  height={620}
                 ></img>
               </div>
             </div>
@@ -95,7 +109,7 @@ export default function Header() {
             </button>
           </div>
 
-          <div className="col mt-5 pt-3 ps-5 company-slogan-button">
+          <div className="col-4 company-slogan-button">
             <div className="row mt-5 company-name" ref={containerRef}>
               Охоронні послуги ТОВ "Безпека-Гарант"
             </div>
@@ -113,7 +127,7 @@ export default function Header() {
               </div>
             ) : (
               <div>
-                <button className="phone-icon-button mt-4" onClick={handleOpen}>
+                <button className="phone-icon-button" onClick={handleOpen}>
                   <FontAwesomeIcon icon={faPhone} shake size="xl" />
                 </button>
                 <Modal
