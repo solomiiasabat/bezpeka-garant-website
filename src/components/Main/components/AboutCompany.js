@@ -1,18 +1,18 @@
-import aboutCompany from "./images/aboutCompany.jpg";
+import aboutCompany from "./images/aboutCompany.png";
 
 export default function AboutCompany() {
   return (
     <section className="aboutCompany">
-      <div className="container">
+      <div className="container ">
         <div className="row">
           <div className="info-aboutCompany col-6">
             <h1 className="aboutCompany-chapter-title pb-4">Про компанію</h1>
             <p>
-              <span className="companyName">ТОВ «Безпека-Гарант»</span> — це
-              згуртована команда професіоналів, які надають комплекс охоронних
-              послуг. Звернувшись до нас, ви зможете замовити фізичну та
-              пультову охорону, пожежне спостереження, охорону публічних заходів
-              та багато іншого.
+              <span className="important-text">ТОВ «Безпека-Гарант»</span> — це
+              згуртована команда професіоналів, які з 2002 року надають комплекс
+              охоронних послуг. Звернувшись до нас, ви зможете замовити фізичну
+              та пультову охорону, пожежне спостереження, охорону публічних
+              заходів та багато іншого.
             </p>
             <p>
               В охоронній компанії працюють фахівці, які встановлять повний
@@ -22,18 +22,13 @@ export default function AboutCompany() {
               встановленої у будинку, квартирі або офісі охоронної та пожежної
               сигналізації.
             </p>
-            <p className="highlighted">
-              Доступні ціни та гнучка система знижок на встановлення охоронної
-              сигналізації і послуги з цілодобового моніторингу та охорони
-              об'єкта вас приємно здивують.
-            </p>
           </div>
           <div className="col-6">
             <img
               src={aboutCompany}
               alt="companyPhoto"
-              width={600}
-              height={370}
+              width={700}
+              height={440}
               className="ps-3 mt-4"
             ></img>
           </div>
