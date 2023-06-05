@@ -8,13 +8,18 @@
 
 .App {
   font-family: "Mulish", sans-serif;
+  font-size: 18px;
 }
+
+.important-text {
+  font-size: 23px;
+  font-weight: bold;
+}
+
 /*ABOUT COMPANY + SERVICES + SECURITYSYSTEMS + PRICES*/
 
 .aboutCompany,
-.services,
-.securitySystems,
-.prices {
+.services {
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -27,27 +32,19 @@
   font-size: 45px;
 }
 
-/*ABOUT COMPANY*/
+/*ABOUT COMPANY + PRICES*/
 .aboutCompany,
-.securitySystems {
+.prices {
   background-color: rgb(0, 94, 178, 0.9);
   color: var(--text-light);
   padding-top: 4%;
   padding-bottom: 4%;
 }
 
+/*ABOUT COMPANY*/
 .info-aboutCompany {
-  font-size: 15px;
-}
-
-.companyName {
-  font-size: 17px;
-  font-weight: bold;
-}
-
-.highlighted {
-  color: var(--main-yellow);
-  font-weight: bold;
+  font-size: 18px;
+  padding: 0 20px 0 0;
 }
 
 /*SERVICES*/
@@ -68,10 +65,6 @@
   transition: all 200ms ease-in-out;
 }
 
-.secondary-text {
-  font-size: 13px;
-}
-
 .service-icon {
   color: var(--main-yellow);
 }
@@ -79,52 +72,59 @@
 .service-name {
   margin-top: 25px;
   font-weight: bold;
+  font-size: 23px;
 }
 
 .service-description {
-  font-size: 14px;
+  font-size: 18px;
+}
+
+/*SECURITY SYSYTEMS */
+.securitySystems {
+  padding: 5% 0;
+  margin-bottom: 100px;
+}
+
+.security-system-description {
+  font-size: 21px;
+}
+
+.security-system-logo {
+  padding-top: 15px;
 }
 
 /*PRICES*/
+
+.prices {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.call-to-action {
+  font-size: 20.5px;
+  color: var(--main-yellow);
+  font-weight: bold;
+}
+
 .connect-prices-button {
-  width: 250px;
-  height: 60px;
-  background-color: var(--main-blue);
+  width: 260px;
+  height: 70px;
+  background-color: var(--main-yellow);
   border: 1px solid transparent;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
-  font-size: 17px;
-  font-weight: 500;
-  color: var(--text-light);
+  font-size: 21px;
+  font-weight: bold;
+  color: var(--main-blue);
 }
 
 .connect-prices-button:hover {
   background-color: transparent;
-  border: 1px solid var(--main-blue);
+  border: 1px solid var(--main-yellow);
   border-radius: 10px;
   transition: all 200ms ease-in-out;
-  color: var(--main-blue);
-}
-
-.modal-prices {
-  background-color: #ededf0;
-  border: 1px solid var(--main-blue);
-  color: var(--main-blue);
-  position: fixed;
-  top: 20%;
-  padding: 20px;
-  width: 75%;
-  height: 65%;
-  margin-left: -3%;
-  text-align: left;
-  z-index: 1;
-  text-align: center;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-.important-text {
-  font-weight: bold;
+  color: var(--main-yellow);
 }
 
 /*NAVBAR*/
@@ -141,13 +141,7 @@ footer ul {
   margin: 0;
 }
 
-.navbar a,
-footer a {
-  color: var(--text-light);
-  text-decoration: none;
-}
-
-/*FOOTER*/
+/*NAVBAR + FOOTER*/
 
 .navbar a:hover,
 footer a:hover,
@@ -157,8 +151,15 @@ footer li:hover {
   cursor: pointer;
 }
 
+.navbar a,
+footer a {
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+/*FOOTER*/
 .footer-logo img {
-  margin-left: -65%;
+  margin-left: -100%;
 }
 
 footer .footer-pagecontent-list,
@@ -172,13 +173,14 @@ footer .footer-pagecontent-list,
 }
 
 .footer-contacts li {
-  margin-left: -145px;
+  margin-left: -150px;
+  font-size: 20px;
 }
 
 .footer-pagecontent-list {
-  margin-left: -100%;
+  margin-left: -120%;
 }
 
 .location {
-  margin-right: -15%;
+  margin-right: -9%;
 }
