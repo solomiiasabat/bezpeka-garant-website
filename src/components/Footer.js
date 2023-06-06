@@ -100,6 +100,7 @@ export default function Footer() {
                 <a href="tel:+380-067-433-09-00" className="ms-1">
                   067 433-09-00
                 </a>
+                , <a href="tel:+380-067-432-18-00">067 432-18-00</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faAt} color={"#ffcc00"} />{" "}

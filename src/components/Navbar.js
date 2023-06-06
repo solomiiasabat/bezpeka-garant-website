@@ -84,7 +84,7 @@ export default function Navbar() {
               spy={true}
               smooth={true}
               duration={50}
-              offset={-350}
+              offset={-550}
             >
               Контакти
             </Link>
