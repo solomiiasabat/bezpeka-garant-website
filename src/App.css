@@ -82,7 +82,6 @@
 /*SECURITY SYSYTEMS */
 .securitySystems {
   padding: 5% 0;
-  margin-bottom: 100px;
 }
 
 .security-system-description {
@@ -90,7 +89,12 @@
 }
 
 .security-system-logo {
-  padding-top: 15px;
+  padding-top: 35px;
+}
+
+.device-photos {
+  margin-top: -50px;
+  margin-right: -175px;
 }
 
 /*PRICES*/
