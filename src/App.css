@@ -106,8 +106,8 @@
 
 .call-to-action {
   font-size: 20.5px;
-  color: var(--main-yellow);
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .connect-prices-button {
