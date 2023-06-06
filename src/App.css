@@ -131,6 +131,10 @@
   color: var(--main-yellow);
 }
 
+.price-modal-window {
+  margin-left: 57%;
+}
+
 /*NAVBAR*/
 
 .navbar,

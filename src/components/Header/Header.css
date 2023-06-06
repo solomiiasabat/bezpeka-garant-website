@@ -75,9 +75,10 @@ div.company-slogan-button {
   position: fixed;
   top: 18%;
   padding: 20px;
+  padding-top: 60px;
   width: 80%;
   height: 65%;
-  margin-left: -46%;
+  margin-left: -47%;
   text-align: left;
   z-index: 1;
   text-align: center;
@@ -88,6 +89,8 @@ div.company-slogan-button {
   float: right;
   border: none;
   color: var(--main-blue);
+  margin-top: -30px;
+  margin-right: 5px;
 }
 
 .exit:hover {
@@ -100,7 +103,8 @@ div.company-slogan-button {
 }
 
 .number-bar {
-  width: 50%;
+  width: 60%;
+  height: 60px;
 }
 
 .callMe-button {
@@ -109,7 +113,8 @@ div.company-slogan-button {
   border-radius: 5px;
   color: var(--text-light);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  padding: 10px 20px;
+  padding: 15px 25px;
+  font-size: 20px;
 }
 
 .callMe-button:hover {
@@ -120,6 +125,8 @@ div.company-slogan-button {
 
 .text-under-form {
   opacity: 0.8;
+  font-size: 20px;
+  padding-top: 20px;
 }
 
 #carouselExampleAutoplaying {
