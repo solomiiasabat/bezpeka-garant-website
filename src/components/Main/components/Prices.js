@@ -25,21 +25,26 @@ export default function Prices() {
             </p>
 
             <p className="mt-4 call-to-action">
-              Звертаєтеся до нас і ми допоможемо розрахувати вартість послуг!
+              Звертайтеся до нас і ми допоможемо розрахувати вам вартість
+              послуг!
             </p>
 
-            <div>
-              <button
-                className="connect-prices-button mt-3"
-                onClick={handleOpen}
-              >
-                Розрахувати вартість
-              </button>
-              <Modal
-                open={openModal}
-                close={handleClose}
-                className="main-modal"
-              />
+            <div className="row">
+              <div className="col">
+                <button
+                  className="connect-prices-button mt-3"
+                  onClick={handleOpen}
+                >
+                  Розрахувати вартість
+                </button>
+              </div>
+              <div className="col price-modal-window">
+                <Modal
+                  open={openModal}
+                  close={handleClose}
+                  className="main-modal"
+                />
+              </div>
             </div>
           </div>
         </div>

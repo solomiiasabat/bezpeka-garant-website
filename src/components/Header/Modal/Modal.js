@@ -13,32 +13,34 @@ export default function ModalMain(props) {
   if (!props.open) return null;
 
   return (
-    <section className="main-modal">
-      <button className="close-btn exit" onClick={props.close}>
-        <FontAwesomeIcon icon={faXmark} size="2xl" />
-      </button>
-      <div className="question-and-form">
-        <h3 className="mt-5">
-          Залиште ваш номер телефону для подальшого зв'язку
-        </h3>
-        <form className="mt-5">
-          <input
-            type="phone"
-            placeholder="+380 ..."
-            className="number-bar me-2 p-2"
-            value={enterNumber}
-            onChange={handleChange}
-          ></input>
+    <section>
+      <div className="main-modal">
+        <button className="close-btn exit" onClick={props.close}>
+          <FontAwesomeIcon icon={faXmark} size="2xl" />
+        </button>
+        <div className="question-and-form">
+          <h2 className="mt-5">
+            Залиште ваш номер телефону для подальшого зв'язку
+          </h2>
+          <form className="mt-5">
+            <input
+              type="phone"
+              placeholder="+380 ..."
+              className="number-bar me-2 p-2"
+              value={enterNumber}
+              onChange={handleChange}
+            ></input>
 
-          <input
-            type="submit"
-            className="callMe-button"
-            value="Зателефонуйте мені"
-          ></input>
-        </form>
-        <p className="mt-4 text-under-form">
-          Наші оператори зв'яжуться з вами в найближчий час
-        </p>
+            <input
+              type="submit"
+              className="callMe-button"
+              value="Зателефонуйте мені"
+            ></input>
+          </form>
+          <p className="mt-4 text-under-form">
+            Наші оператори зв'яжуться з вами в найближчий час
+          </p>
+        </div>
       </div>
     </section>
   );
