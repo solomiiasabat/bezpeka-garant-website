@@ -4,26 +4,18 @@
   --text-light: aliceblue;
 }
 
-div.header.container {
-  margin: 0 200px;
-}
-
-.header {
-  padding-top: 2%;
-}
-
 div.company-slogan-button {
-  margin-top: 10%;
-  margin-right: -10px;
+  margin-top: 5%;
+  margin-left: -100px;
 }
 
 .company-name {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .slogan {
   font-weight: bold;
-  font-size: 42px;
+  font-size: 32px;
   text-align: center;
 }
 
@@ -35,7 +27,7 @@ div.company-slogan-button {
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
   color: var(--text-light);
 }
@@ -50,16 +42,16 @@ div.company-slogan-button {
 
 .phone-icon-button {
   position: fixed;
-  width: 70px;
-  height: 70px;
-  left: calc(100% - 150px);
+  width: 60px;
+  height: 60px;
+  left: calc(100% - 100px);
   background-color: var(--main-yellow);
   border: 1px solid transparent;
   border-radius: 100px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
   color: var(--main-blue);
-  margin-top: 18%;
+  margin-top: 12%;
 }
 
 .phone-icon-button:hover {
@@ -73,12 +65,11 @@ div.company-slogan-button {
   border: 1px solid var(--main-blue);
   color: var(--main-blue);
   position: fixed;
-  top: 18%;
+  top: 17%;
   padding: 20px;
-  padding-top: 60px;
-  width: 80%;
-  height: 65%;
-  margin-left: -47%;
+  width: 85%;
+  height: 75%;
+  margin-left: -50%;
   text-align: left;
   z-index: 1;
   text-align: center;
@@ -89,7 +80,6 @@ div.company-slogan-button {
   float: right;
   border: none;
   color: var(--main-blue);
-  margin-top: -30px;
   margin-right: 5px;
 }
 
@@ -104,7 +94,7 @@ div.company-slogan-button {
 
 .number-bar {
   width: 60%;
-  height: 60px;
+  height: 52px;
 }
 
 .callMe-button {
@@ -113,8 +103,8 @@ div.company-slogan-button {
   border-radius: 5px;
   color: var(--text-light);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  padding: 15px 25px;
-  font-size: 20px;
+  padding: 13px 20px;
+  font-size: 17px;
 }
 
 .callMe-button:hover {
@@ -125,8 +115,7 @@ div.company-slogan-button {
 
 .text-under-form {
   opacity: 0.8;
-  font-size: 20px;
-  padding-top: 20px;
+  font-size: 17px;
 }
 
 #carouselExampleAutoplaying {

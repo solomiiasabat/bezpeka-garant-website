@@ -27,8 +27,8 @@ export default function AboutCompany() {
             <img
               src={aboutCompany}
               alt="companyPhoto"
-              width={700}
-              height={440}
+              width={540}
+              height={340}
               className="ps-3 mt-4"
             ></img>
           </div>

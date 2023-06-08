@@ -22,50 +22,38 @@ export default function SecuritySystems() {
             </p>
             <div className="row">
               <div className="col security-system-logo">
-                <img
-                  src={Ajax}
-                  alt="Ajax-logo"
-                  width={250}
-                  height={50}
-                  className="mt-4"
-                ></img>
+                <img src={Ajax} alt="Ajax-logo" width={200} height={40}></img>
               </div>
 
               <div className="col security-system-logo">
-                <img
-                  src={Tiras}
-                  alt="Tiras-logo"
-                  width={250}
-                  height={50}
-                  className="mt-4"
-                ></img>
+                <img src={Tiras} alt="Tiras-logo" width={200} height={40}></img>
               </div>
             </div>
           </div>
-          <div className="col device-photos">
+          <div className="col">
             <div
               id="carouselExampleAutoplaying"
               className="carousel slide"
               data-bs-ride="carousel"
             >
               <div className="carousel-inner">
-                <div className="carousel-item  active">
+                <div className="carousel-item device-photos active">
                   <img
                     src={device1}
                     className="d-block"
-                    alt="device1"
-                    width={480}
-                    height={310}
+                    alt="ajax devices"
+                    width={360}
+                    height={250}
                   ></img>
                 </div>
 
-                <div className="carousel-item">
+                <div className="carousel-item device-photos">
                   <img
                     src={device2}
                     className="d-block"
-                    alt="photo2"
-                    width={705}
-                    height={310}
+                    alt="tiras devices"
+                    width={550}
+                    height={250}
                   ></img>
                 </div>
               </div>

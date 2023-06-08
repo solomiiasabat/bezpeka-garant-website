@@ -17,12 +17,7 @@ export default function Footer() {
         <div className="row">
           <div className="col mt-4 footer-logo">
             {" "}
-            <img
-              src="logo1.png"
-              alt="small logo"
-              width="100"
-              height="100"
-            ></img>
+            <img src="logo1.png" alt="small logo" width="60" height="60"></img>
           </div>
 
           <div className="col mt-4">
@@ -120,8 +115,8 @@ export default function Footer() {
           <div className="col mt-4 mb-2 location">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4962.333416197972!2d28.448239431452294!3d49.23724151580856!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472d5b7b3f65d3cb%3A0x691af8f9ff1dd84b!2z0JHQtdC30L_QtdC60LAt0JPQsNGA0LDQvdGC!5e0!3m2!1suk!2sua!4v1685084807907!5m2!1suk!2sua"
-              width="600"
-              height="380"
+              width="455"
+              height="280"
               style={{ border: "0" }}
               allowFullScreen=""
               loading="lazy"

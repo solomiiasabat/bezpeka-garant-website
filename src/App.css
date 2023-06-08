@@ -8,11 +8,11 @@
 
 .App {
   font-family: "Mulish", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .important-text {
-  font-size: 23px;
+  font-size: 19px;
   font-weight: bold;
 }
 
@@ -29,7 +29,7 @@
 .securitySystems-chapter-title,
 .prices-chapter-title {
   font-weight: bold;
-  font-size: 45px;
+  font-size: 35px;
 }
 
 /*ABOUT COMPANY + PRICES*/
@@ -43,7 +43,7 @@
 
 /*ABOUT COMPANY*/
 .info-aboutCompany {
-  font-size: 18px;
+  font-size: 16px;
   padding: 0 20px 0 0;
 }
 
@@ -72,11 +72,11 @@
 .service-name {
   margin-top: 25px;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .service-description {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /*SECURITY SYSYTEMS */
@@ -85,7 +85,7 @@
 }
 
 .security-system-description {
-  font-size: 21px;
+  font-size: 17px;
 }
 
 .security-system-logo {
@@ -94,7 +94,8 @@
 
 .device-photos {
   margin-top: -50px;
-  margin-right: -175px;
+  margin-right: -85px;
+  padding: 40px 0;
 }
 
 /*PRICES*/
@@ -105,20 +106,20 @@
 }
 
 .call-to-action {
-  font-size: 20.5px;
+  font-size: 19px;
   font-weight: bold;
   text-decoration: underline;
 }
 
 .connect-prices-button {
-  width: 260px;
-  height: 70px;
+  width: 250px;
+  height: 65px;
   background-color: var(--main-yellow);
   border: 1px solid transparent;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: bold;
   color: var(--main-blue);
 }
@@ -132,24 +133,17 @@
 }
 
 .price-modal-window {
-  margin-left: 57%;
+  margin-left: 51%;
 }
 
 /*NAVBAR*/
 
+/*NAVBAR + FOOTER*/
 .navbar,
 footer {
   background-color: var(--main-blue);
   color: var(--text-light);
 }
-
-footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/*NAVBAR + FOOTER*/
 
 .navbar a:hover,
 footer a:hover,
@@ -166,8 +160,15 @@ footer a {
 }
 
 /*FOOTER*/
+
 .footer-logo img {
-  margin-left: -100%;
+  margin-left: -19%;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 footer .footer-pagecontent-list,
@@ -181,14 +182,14 @@ footer .footer-pagecontent-list,
 }
 
 .footer-contacts li {
-  margin-left: -150px;
-  font-size: 20px;
+  margin-left: -120px;
+  font-size: 16px;
 }
 
 .footer-pagecontent-list {
-  margin-left: -120%;
+  margin-left: -70%;
 }
 
 .location {
-  margin-right: -9%;
+  margin-right: -4%;
 }

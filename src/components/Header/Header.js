@@ -21,8 +21,8 @@ export default function Header() {
   const options = useMemo(() => {
     return {
       root: null,
-      rootMargin: "22px",
-      threshold: 1.0,
+      rootMargin: "1px",
+      threshold: 0.8,
     };
   }, []);
 
@@ -51,7 +51,7 @@ export default function Header() {
         <div className="row">
           <div
             id="carouselExampleAutoplaying"
-            className="col-8 carousel slide"
+            className="col-8 carousel slide company-photo-carousel"
             data-bs-ride="carousel"
           >
             <div className="carousel-inner">
@@ -60,8 +60,8 @@ export default function Header() {
                   src={photo1}
                   className="d-block"
                   alt="photo1"
-                  width={900}
-                  height={620}
+                  width={600}
+                  height={420}
                 ></img>
               </div>
               <div className="carousel-item">
@@ -69,8 +69,8 @@ export default function Header() {
                   src={photo2}
                   className="d-block"
                   alt="photo2"
-                  width={900}
-                  height={620}
+                  width={600}
+                  height={420}
                 ></img>
               </div>
               <div className="carousel-item">
@@ -78,8 +78,8 @@ export default function Header() {
                   src={photo3}
                   className="d-block"
                   alt="photo2"
-                  width={900}
-                  height={620}
+                  width={600}
+                  height={420}
                 ></img>
               </div>
             </div>

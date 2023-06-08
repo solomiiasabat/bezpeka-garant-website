@@ -19,13 +19,13 @@ export default function ModalMain(props) {
           <FontAwesomeIcon icon={faXmark} size="2xl" />
         </button>
         <div className="question-and-form">
-          <h2 className="mt-5">
+          <h3 className="mt-5">
             Залиште ваш номер телефону для подальшого зв'язку
-          </h2>
+          </h3>
           <form className="mt-5">
             <input
               type="phone"
-              placeholder="+380 ..."
+              placeholder="  +380 ..."
               className="number-bar me-2 p-2"
               value={enterNumber}
               onChange={handleChange}
