@@ -44,14 +44,14 @@ div.company-slogan-button {
   position: fixed;
   width: 60px;
   height: 60px;
-  left: calc(100% - 100px);
+  left: 88%;
+  top: 78%;
   background-color: var(--main-yellow);
   border: 1px solid transparent;
   border-radius: 100px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
   color: var(--main-blue);
-  margin-top: 12%;
 }
 
 .phone-icon-button:hover {
