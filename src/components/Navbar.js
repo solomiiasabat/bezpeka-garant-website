@@ -1,4 +1,6 @@
 import { Link } from "react-scroll";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar() {
   function openBar() {
@@ -13,8 +15,10 @@ export default function Navbar() {
         <a className="navbar-brand  ms-3" href="/Navbar">
           <img src="logo1.png" alt="Company Logo" width="70" height="70"></img>
         </a>
+
+        {/*HAMBURGER MENU ICON*/}
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -22,12 +26,18 @@ export default function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span>
+            <FontAwesomeIcon
+              icon={faBars}
+              size="xl"
+              className="hamburger-menu-icon"
+            />
+          </span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav me-auto ms-5 mt-4 mb-3">
-            <li className="nav-item me-2">
+            <li className="nav-item ms-2 me-2">
               <Link
                 className="nav-link"
                 aria-current="page"
@@ -103,11 +113,11 @@ export default function Navbar() {
               </Link>
             </li>
           </ul>
+          <span className="tel-number me-4 mt-2">
+            тел.: <a href="tel:+380-067-433-09-00">067 433-09-00</a>,{" "}
+            <a href="tel:+380-067-432-18-00">067 432-18-00</a>
+          </span>
         </div>
-        <span className="tel-number me-4 mt-2">
-          тел.: <a href="tel:+380-067-433-09-00">067 433-09-00</a>,{" "}
-          <a href="tel:+380-067-432-18-00">067 432-18-00</a>
-        </span>
       </div>
     </nav>
   );

@@ -137,6 +137,9 @@
 }
 
 /*NAVBAR*/
+.hamburger-menu-icon {
+  color: var(--text-light);
+}
 
 /*NAVBAR + FOOTER*/
 .navbar,
