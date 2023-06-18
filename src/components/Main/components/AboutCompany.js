@@ -5,16 +5,16 @@ export default function AboutCompany() {
     <section className="aboutCompany">
       <div className="container ">
         <div className="row">
-          <div className="info-aboutCompany col-6">
+          <div className="info-aboutCompany col-xxl-6 col-xl-7 col-lg-7 col-md-7">
             <h1 className="aboutCompany-chapter-title pb-4">Про компанію</h1>
-            <p>
+            <p className="aboutCompany-description">
               <span className="important-text">ТОВ «Безпека-Гарант»</span> — це
               згуртована команда професіоналів, які з 2002 року надають комплекс
               охоронних послуг. Звернувшись до нас, ви зможете замовити фізичну
               та пультову охорону, пожежне спостереження, охорону публічних
               заходів та багато іншого.
             </p>
-            <p>
+            <p className="aboutCompany-description">
               В охоронній компанії працюють фахівці, які встановлять повний
               комплекс необхідного обладнання протягом мінімального терміну, не
               порушуючи інтер'єру вашого приміщення. А також дадуть відповідь на
@@ -23,13 +23,11 @@ export default function AboutCompany() {
               сигналізації.
             </p>
           </div>
-          <div className="col-6">
+          <div className="col-xxl-6 col-xl-5 col-lg-5 col-md-5">
             <img
               src={aboutCompany}
               alt="companyPhoto"
-              width={540}
-              height={340}
-              className="ps-3 mt-4"
+              className="ps-3 company-staff-photo"
             ></img>
           </div>
         </div>

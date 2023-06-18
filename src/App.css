@@ -47,6 +47,12 @@
   padding: 0 20px 0 0;
 }
 
+.company-staff-photo {
+  width: 540px;
+  height: 340px;
+  margin-top: 30px;
+}
+
 /*SERVICES*/
 .service-unit {
   background-color: var(--main-blue);
@@ -65,6 +71,27 @@
   transition: all 200ms ease-in-out;
 }
 
+.with-description1 {
+  margin-right: 1rem;
+}
+
+.with-description2 {
+  margin-left: 1rem;
+}
+
+.without-description1 {
+  margin-right: 1rem;
+}
+
+.without-description2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.without-description3 {
+  margin-left: 1rem;
+}
+
 .service-icon {
   color: var(--main-yellow);
 }
@@ -81,7 +108,7 @@
 
 /*SECURITY SYSYTEMS */
 .securitySystems {
-  padding: 5% 0;
+  padding: 6% 0 4% 0;
 }
 
 .security-system-description {
@@ -92,10 +119,28 @@
   padding-top: 35px;
 }
 
+.ajax-logo,
+.tiras-logo {
+  width: 200px;
+  height: 40px;
+}
+
 .device-photos {
   margin-top: -50px;
-  margin-right: -85px;
   padding: 40px 0;
+}
+
+.ajax-devices {
+  width: 360px;
+}
+
+.tiras-devices {
+  width: 546px;
+}
+
+.ajax-devices,
+.tiras-devices {
+  height: 255px;
 }
 
 /*PRICES*/
@@ -133,10 +178,15 @@
 }
 
 .price-modal-window {
-  margin-left: 51%;
+  margin-left: 55%;
 }
 
 /*NAVBAR*/
+.navbar-company-logo {
+  width: 70px;
+  height: 70px;
+}
+
 .hamburger-menu-icon {
   color: var(--text-light);
 }
@@ -165,7 +215,8 @@ footer a {
 /*FOOTER*/
 
 .footer-logo img {
-  margin-left: -19%;
+  width: 60px;
+  height: 60px;
 }
 
 footer ul {
@@ -190,9 +241,922 @@ footer .footer-pagecontent-list,
 }
 
 .footer-pagecontent-list {
-  margin-left: -70%;
+  margin-left: -67%;
 }
 
-.location {
+div.col.mb-2.location {
   margin-right: -4%;
+  margin-top: 2rem;
+}
+
+.location-map {
+  width: 455px;
+  height: 280px;
+}
+
+/*!!! ADAPTIVE !!!*/
+@media (max-width: 1440px) {
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 61%;
+  }
+
+  /*FOOTER*/
+  .footer-logo img {
+    margin-left: -16%;
+  }
+}
+
+@media (max-width: 1375px) {
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 100%;
+  }
+
+  /*FOOTER*/
+  .footer-logo img {
+    margin-left: -46%;
+  }
+
+  .footer-pagecontent-list {
+    margin-left: -87%;
+  }
+
+  .footer-contacts li {
+    margin-left: -130px;
+  }
+}
+
+@media (max-width: 1310px) {
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 86%;
+  }
+
+  /*FOOTER*/
+  .footer-logo img {
+    margin-left: -30%;
+  }
+
+  .footer-pagecontent-list {
+    margin-left: -73%;
+  }
+}
+
+@media (max-width: 1220px) {
+  /*ABOUT COMPANY*/
+  img.ps-3.company-staff-photo {
+    width: 490px;
+    height: 300px;
+    margin-top: 60px;
+  }
+
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 20%;
+  }
+
+  /*FOOTER*/
+  .footer-logo img {
+    margin-left: -10%;
+  }
+
+  .footer-pagecontent-list {
+    margin-left: -55%;
+  }
+
+  .footer-contacts li {
+    margin-left: -100px;
+    font-size: 15px;
+  }
+
+  .location {
+    margin-right: -1%;
+  }
+  .location-map {
+    width: 400px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 1190px) {
+  .important-text {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  /*SECURITY SYSYTEMS */
+  .security-system-description {
+    font-size: 16px;
+  }
+
+  .ajax-logo,
+  .tiras-logo {
+    width: 170px;
+    height: 35px;
+  }
+
+  .ajax-devices {
+    width: 320px;
+  }
+
+  .tiras-devices {
+    width: 455px;
+  }
+
+  .ajax-devices,
+  .tiras-devices {
+    height: 235px;
+  }
+
+  /*FOOTER*/
+  .footer-logo img {
+    margin-left: -45%;
+  }
+
+  .footer-pagecontent-list {
+    margin-left: -75%;
+  }
+
+  .location {
+    margin-right: -8%;
+  }
+}
+
+@media (max-width: 1152px) {
+  /*ABOUT COMPANY*/
+  img.ps-3.company-staff-photo {
+    width: 470px;
+    height: 290px;
+    margin-top: 55px;
+  }
+}
+
+@media (max-width: 1110px) {
+  /*ABOUT COMPANY*/
+  img.ps-3.company-staff-photo {
+    width: 450px;
+    height: 280px;
+    margin-top: 55px;
+  }
+
+  /*FOOTER*/
+
+  .footer-logo img {
+    margin-left: -25%;
+  }
+  .location {
+    margin-right: -5.5%;
+  }
+}
+
+@media (max-width: 1076px) {
+  /*ABOUT COMPANY*/
+  img.ps-3.company-staff-photo {
+    width: 430px;
+    height: 270px;
+    margin-top: 55px;
+  }
+
+  /*PRICES*/
+  .call-to-action {
+    font-size: 17px;
+  }
+
+  .price-modal-window {
+    margin-left: 20%;
+  }
+
+  /*FOOTER*/
+  .footer-pagecontent-list {
+    margin-left: -60%;
+  }
+
+  .location {
+    margin-right: -3%;
+  }
+
+  .location-map {
+    width: 370px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 1037px) {
+  /*ABOUT COMPANY*/
+  .info-aboutCompany {
+    font-size: 14px;
+  }
+
+  img.ps-3.company-staff-photo {
+    width: 380px;
+    height: 240px;
+    margin-top: 50px;
+  }
+
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 20%;
+  }
+
+  /*FOOTER*/
+  .footer-logo img {
+    margin-left: -15%;
+  }
+}
+
+@media (max-width: 992px) {
+  /*NAVBAR*/
+  .hamburger-menu {
+    margin-right: 15px;
+  }
+
+  .tel-number {
+    display: none;
+  }
+
+  div#navbarNav.navbar-collapse.show {
+    text-align: center;
+  }
+
+  div#navbarNav.navbar-collapse.collapsing {
+    text-align: center;
+  }
+
+  a.nav-link {
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 25%;
+    padding: 10px 0;
+  }
+
+  /*ABOUT COMPANY + SERVICES + SECURITYSYSTEMS + PRICES*/
+  .aboutCompany-chapter-title,
+  .service-chapter-title,
+  .securitySystems-chapter-title,
+  .prices-chapter-title {
+    font-size: 30px;
+  }
+
+  /*ABOUT COMPANY*/
+  .aboutCompany {
+    margin-top: 40px;
+  }
+
+  img.ps-3.company-staff-photo {
+    margin-top: 70px;
+  }
+
+  /*ABOUT COMPANY + PRICES*/
+  .aboutCompany,
+  .prices {
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+
+  /*SERVICES*/
+
+  .service-unit {
+    padding-top: 10px;
+  }
+
+  .service-name {
+    margin-top: 20px;
+    font-size: 17px;
+  }
+
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 26%;
+  }
+
+  /*SECURITY SYSYTEMS */
+  .device-photos {
+    margin-top: -30px;
+    margin-right: -30px;
+  }
+
+  .col-device-photos {
+    margin-right: -90px;
+  }
+
+  .security-system-logo {
+    padding-top: 20px;
+  }
+
+  .ajax-logo,
+  .tiras-logo {
+    width: 140px;
+    height: 25px;
+  }
+
+  .ajax-devices {
+    width: 270px;
+  }
+
+  .tiras-devices {
+    width: 350px;
+  }
+
+  .ajax-devices,
+  .tiras-devices {
+    height: 188px;
+  }
+
+  /*FOOTER*/
+  .footer-logo img {
+    margin-left: -75%;
+  }
+
+  .footer-pagecontent-list {
+    margin-left: -105%;
+    font-size: 12px;
+  }
+
+  .footer-contacts li {
+    margin-left: -105px;
+    font-size: 13.5px;
+  }
+
+  .location {
+    margin-right: -18%;
+  }
+
+  .location-map {
+    width: 340px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 976px) {
+  /*FOOTER*/
+  .location {
+    margin-right: -15%;
+  }
+
+  .footer-contacts li {
+    margin-left: -110px;
+  }
+}
+
+@media (max-width: 935px) {
+  /*FOOTER*/
+  .footer-contacts li {
+    font-size: 13px;
+  }
+
+  .location-map {
+    width: 320px;
+    height: 205px;
+  }
+
+  .location {
+    margin-right: -11%;
+  }
+}
+
+@media (max-width: 895px) {
+  /*ABOUT COMPANY*/
+  img.ps-3.company-staff-photo {
+    width: 320px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*SECURITY SYSYTEMS */
+  .ajax-devices {
+    width: 250px;
+  }
+
+  .tiras-devices {
+    width: 320px;
+  }
+
+  .ajax-devices,
+  .tiras-devices {
+    height: 168px;
+  }
+
+  div.col.col-device-photos {
+    padding: 10px 0 0 0;
+    margin-right: -40px;
+  }
+
+  /*FOOTER*/
+  .footer-logo img {
+    margin-left: -45%;
+  }
+
+  .footer-pagecontent-list {
+    margin-left: -80%;
+    font-size: 11px;
+  }
+
+  .footer-contacts li {
+    font-size: 12px;
+  }
+
+  .location-map {
+    width: 310px;
+    height: 200px;
+  }
+
+  .location {
+    margin-right: -6%;
+  }
+}
+
+@media (max-width: 802px) {
+  .App {
+    font-size: 12px;
+  }
+
+  .important-text {
+    font-size: 14px;
+  }
+  /*ABOUT COMPANY + SERVICES + SECURITYSYSTEMS + PRICES*/
+  .aboutCompany-chapter-title,
+  .service-chapter-title,
+  .securitySystems-chapter-title,
+  .prices-chapter-title {
+    font-size: 25px;
+  }
+
+  /*ABOUT COMPANY*/
+  .aboutCompany {
+    margin-bottom: 3px;
+  }
+
+  .aboutCompany-description {
+    font-size: 12.5px;
+  }
+
+  /*SERVICES*/
+  .services {
+    margin-top: 70px;
+  }
+
+  .service-name {
+    font-size: 14px;
+  }
+
+  .service-description {
+    font-size: 12.5px;
+  }
+
+  /*PRICES*/
+  .call-to-action {
+    font-size: 15px;
+  }
+
+  .connect-prices-button {
+    width: 200px;
+    height: 60px;
+    font-size: 15px;
+  }
+
+  /*SECURITY SYSTEMS*/
+  div.col.col-device-photos {
+    margin-right: -10px;
+  }
+
+  /*FOOTER*/
+  .footer-logo img {
+    width: 50px;
+    height: 50px;
+    margin-left: -20%;
+  }
+
+  .location-map {
+    width: 280px;
+    height: 190px;
+  }
+
+  .location {
+    margin-right: -1%;
+  }
+}
+
+@media (max-width: 768px) {
+  /*ABOUT COMPANY*/
+  img.ps-3.company-staff-photo {
+    margin-top: 15px;
+    width: 450px;
+    height: 280px;
+  }
+  /*SERVICES*/
+  .without-description1 {
+    margin-left: 0.7rem;
+    margin-right: 2rem;
+    margin-bottom: 2.7rem;
+  }
+
+  .without-description2 {
+    margin-left: 2rem;
+    margin-bottom: 2.7rem;
+  }
+
+  .without-description3 {
+    margin-left: 0;
+  }
+
+  /*SECURITY SYSTEMS*/
+  div.col.security-system-logo {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  img.ajax-logo {
+    padding-right: 10px;
+  }
+
+  div.col.col-device-photos {
+    margin-right: -70px;
+  }
+
+  .ajax-devices {
+    width: 230px;
+  }
+
+  .tiras-devices {
+    width: 290px;
+  }
+
+  .ajax-devices,
+  .tiras-devices {
+    height: 160px;
+  }
+
+  /*FOOTER*/
+  .footer-logo img {
+    margin-left: -110%;
+  }
+
+  .footer-pagecontent-list {
+    margin-left: -150%;
+  }
+
+  .footer-contacts li {
+    font-size: 11px;
+    margin-left: -120px;
+  }
+
+  .location {
+    margin-right: -15%;
+  }
+}
+
+@media (max-width: 698px) {
+  /*SECURITY SYSTEMS*/
+  div.col.col-device-photos {
+    margin-right: -50px;
+  }
+
+  .ajax-devices {
+    width: 225px;
+  }
+
+  .tiras-devices {
+    width: 280px;
+  }
+
+  .ajax-devices,
+  .tiras-devices {
+    height: 155px;
+  }
+
+  /*FOOTER*/
+  .footer-logo img {
+    margin-left: -55%;
+  }
+
+  div.col.mt-4.pagecontent {
+    margin-left: 12%;
+  }
+
+  div.col.mt-4.contacts {
+    margin-left: 30%;
+  }
+
+  div.col.mb-2.location {
+    margin-left: 45%;
+    margin-top: -6rem;
+  }
+
+  .location-map {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 640px) {
+  /*SECURITY SYSTEMS*/
+  .securitySystems {
+    padding: 4% 0 3% 0;
+  }
+
+  div.col.security-systems-description {
+    margin-right: 25%;
+  }
+
+  div.col.col-device-photos {
+    margin-right: 0px;
+    margin-left: 5%;
+    margin-top: 10px;
+  }
+
+  .ajax-devices {
+    width: 280px;
+  }
+
+  .tiras-devices {
+    width: 350px;
+  }
+
+  .ajax-devices,
+  .tiras-devices {
+    height: 185px;
+  }
+
+  img.ajax-logo {
+    padding-right: 0px;
+    padding-left: 20px;
+  }
+
+  /*FOOTER*/
+  .footer-logo img {
+    margin-left: -40%;
+  }
+}
+
+@media (max-width: 582px) {
+  /*FOOTER*/
+  .location-map {
+    width: 270px;
+    height: 170px;
+  }
+
+  .footer-logo img {
+    margin-left: -25%;
+  }
+}
+
+@media (max-width: 565px) {
+  .aboutCompany,
+  div.container.services,
+  .prices,
+  .securitySystems {
+    padding-left: 4%;
+  }
+
+  .aboutCompany-chapter-title,
+  .service-chapter-title,
+  .securitySystems-chapter-title,
+  .prices-chapter-title {
+    font-size: 21px;
+  }
+
+  /*NAVBAR*/
+  .navbar-company-logo {
+    width: 55px;
+    height: 55px;
+  }
+
+  /*SERVICES*/
+  div.container.services {
+    padding-right: 4%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .with-description1,
+  .with-description2,
+  .without-description1,
+  .without-description2,
+  .without-description3 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .with-description1,
+  .without-description1,
+  .without-description2 {
+    margin-bottom: 2.7rem;
+  }
+
+  /*PRICES*/
+  section.prices {
+    margin-top: 50px;
+  }
+
+  div.main-modal {
+    margin-left: -63%;
+  }
+
+  /*SECURITY SYSYTEMS */
+  p.security-system-description {
+    font-size: 15px;
+  }
+
+  div.col.security-systems-description {
+    margin-right: 10%;
+    margin-left: 2%;
+  }
+
+  div.col.col-device-photos {
+    margin-right: 0px;
+    margin-left: 16%;
+    margin-top: 10px;
+  }
+
+  /*FOOTER*/
+  li.footer-content {
+    padding-bottom: 7px;
+  }
+
+  .footer-logo img {
+    margin-left: 17%;
+  }
+
+  div.col.mt-4.pagecontent {
+    margin-left: 22%;
+  }
+
+  div.col.mt-4.contacts {
+    margin-left: 10%;
+  }
+
+  .location-map {
+    width: 400px;
+    height: 170px;
+  }
+
+  div.col.mb-2.location {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    padding-left: 85px;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  /*ABOUT COMPANY*/
+  img.ps-3.company-staff-photo {
+    width: 400px;
+    height: 250px;
+  }
+
+  /*FOOTER*/
+  div.col.mb-2.location {
+    padding-left: 65px;
+  }
+}
+
+@media (max-width: 463px) {
+  /*FOOTER*/
+  div.col.mb-2.location {
+    padding-left: 40px;
+  }
+
+  div.col.mb-2.location-map {
+    width: 350px;
+    height: 170px;
+  }
+}
+
+@media (max-width: 440px) {
+  /*FOOTER*/
+  div.col.mt-4.pagecontent {
+    margin-left: 20%;
+  }
+
+  div.col.mb-2.location {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  /*NAVBAR*/
+  div#navbarNav.navbar-collapse.collapse.show {
+    margin-left: -20px;
+  }
+
+  /*ABOUT COMPANY*/
+  img.ps-3.company-staff-photo {
+    width: 350px;
+    height: 220px;
+  }
+
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 16%;
+  }
+
+  /*SECURITY SYSTEMS*/
+  div.col.col-device-photos {
+    margin-left: 10%;
+  }
+
+  .ajax-devices {
+    width: 245px;
+  }
+
+  .tiras-devices {
+    width: 300px;
+  }
+
+  .ajax-devices,
+  .tiras-devices {
+    height: 155px;
+  }
+
+  /*FOOTER*/
+  .footer-logo img {
+    display: none;
+  }
+
+  div.col.mt-4.pagecontent {
+    margin-left: 9%;
+  }
+
+  div.col.mt-4.contacts {
+    margin-left: 11%;
+    font-size: 13px;
+  }
+
+  .footer-contacts li {
+    font-size: 12px;
+  }
+
+  .location-map {
+    width: 350px;
+    height: 170px;
+  }
+
+  div.col.mb-2.location {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 397px) {
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 12%;
+  }
+
+  /*FOOTER*/
+  div.col.mb-2.location {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 380px) {
+  /*ABOUT COMPANY*/
+  img.ps-3.company-staff-photo {
+    width: 350px;
+    height: 220px;
+  }
+
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 9%;
+  }
+
+  /*FOOTER*/
+  .footer-contacts li {
+    font-size: 11px;
+  }
+
+  .location-map {
+    width: 320px;
+    height: 170px;
+  }
+
+  div.col.mb-2.location {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  /*NAVBAR*/
+  div#navbarNav.navbar-collapse.collapse.show {
+    margin-left: -35px;
+  }
+
+  /*ABOUT COMPANY*/
+  img.ps-3.company-staff-photo {
+    width: 320px;
+    height: 207px;
+  }
+
+  /*FOOTER*/
+  div.col.mt-4.pagecontent {
+    margin-left: 7%;
+  }
+  div.col.mt-4.contacts {
+    margin-left: 11%;
+  }
 }

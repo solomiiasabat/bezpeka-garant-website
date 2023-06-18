@@ -9,7 +9,7 @@ export default function SecuritySystems() {
       <div className="container">
         {" "}
         <div className="row">
-          <div className="col">
+          <div className="col security-systems-description">
             <h1 className="securitySystems-chapter-title pb-4">
               Системи безпеки
             </h1>
@@ -22,15 +22,15 @@ export default function SecuritySystems() {
             </p>
             <div className="row">
               <div className="col security-system-logo">
-                <img src={Ajax} alt="Ajax-logo" width={200} height={40}></img>
+                <img src={Ajax} className="ajax-logo" alt="Ajax-logo"></img>
               </div>
 
               <div className="col security-system-logo">
-                <img src={Tiras} alt="Tiras-logo" width={200} height={40}></img>
+                <img src={Tiras} className="tiras-logo" alt="Tiras-logo"></img>
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col col-device-photos">
             <div
               id="carouselExampleAutoplaying"
               className="carousel slide"
@@ -40,20 +40,16 @@ export default function SecuritySystems() {
                 <div className="carousel-item device-photos active">
                   <img
                     src={device1}
-                    className="d-block"
+                    className="d-block ajax-devices"
                     alt="ajax devices"
-                    width={360}
-                    height={250}
                   ></img>
                 </div>
 
                 <div className="carousel-item device-photos">
                   <img
                     src={device2}
-                    className="d-block"
+                    className="d-block tiras-devices"
                     alt="tiras devices"
-                    width={550}
-                    height={250}
                   ></img>
                 </div>
               </div>

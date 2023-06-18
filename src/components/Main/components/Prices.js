@@ -15,9 +15,9 @@ export default function Prices() {
     <section className="prices">
       <div className="container">
         <div className="row">
-          <div className="col-8">
+          <div className="col-xl-8 col-xxl-7">
             <h1 className="prices-chapter-title pb-4">Ціни</h1>
-            <h5>Ми практикуємо індивідуальний підхід до кожного клієнта</h5>
+            <h6>Ми практикуємо індивідуальний підхід до кожного клієнта</h6>
             <p>
               Доступні ціни та гнучка система знижок на встановлення охоронної
               сигналізації і послуги з цілодобового моніторингу та охорони

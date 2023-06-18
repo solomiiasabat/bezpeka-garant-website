@@ -48,44 +48,38 @@ export default function Header() {
   return (
     <header>
       <div className="header container">
-        <div className="row">
+        <div className="row pt-2">
           <div
             id="carouselExampleAutoplaying"
-            className="col-8 carousel slide company-photo-carousel"
+            className="col-9 col-sm-9 col-xxl-8 col-xl-8 col-md-8 carousel slide company-photo-carousel"
             data-bs-ride="carousel"
           >
             <div className="carousel-inner">
               <div className="carousel-item  active">
                 <img
                   src={photo1}
-                  className="d-block"
+                  className="d-block header-company-photo"
                   alt="photo1"
-                  width={600}
-                  height={420}
                 ></img>
               </div>
               <div className="carousel-item">
                 <img
                   src={photo2}
-                  className="d-block"
+                  className="d-block header-company-photo"
                   alt="photo2"
-                  width={600}
-                  height={420}
                 ></img>
               </div>
               <div className="carousel-item">
                 <img
                   src={photo3}
-                  className="d-block"
+                  className="d-block header-company-photo"
                   alt="photo2"
-                  width={600}
-                  height={420}
                 ></img>
               </div>
             </div>
           </div>
 
-          <div className="col-4 company-slogan-button">
+          <div className="col-3 col-sm-3 col-xxl-4 col-xl-4 col-md-4 company-slogan-button">
             <div className="row mt-5 company-name" ref={containerRef}>
               Охоронні послуги ТОВ "Безпека-Гарант"
             </div>

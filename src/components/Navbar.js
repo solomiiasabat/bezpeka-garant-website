@@ -13,12 +13,16 @@ export default function Navbar() {
     <nav className="navbar sticky-top navbar-expand-lg">
       <div className="container-fluid">
         <a className="navbar-brand  ms-3" href="/Navbar">
-          <img src="logo1.png" alt="Company Logo" width="70" height="70"></img>
+          <img
+            src="logo1.png"
+            className="navbar-company-logo"
+            alt="Company Logo"
+          ></img>
         </a>
 
         {/*HAMBURGER MENU ICON*/}
         <button
-          className="navbar-toggler"
+          className="navbar-toggler hamburger-menu"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -36,7 +40,7 @@ export default function Navbar() {
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav me-auto ms-5 mt-4 mb-3">
+          <ul className="navbar-nav navbar-menu-list me-auto ms-5 mt-4 mb-3">
             <li className="nav-item ms-2 me-2">
               <Link
                 className="nav-link"

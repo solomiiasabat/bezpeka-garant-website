@@ -11,7 +11,7 @@ export default function Services() {
       <h1 className="service-chapter-title pb-4">Послуги</h1>
       <div className="row">
         {/*SERVICE 1 */}
-        <div className="col me-5 service-unit">
+        <div className="col-12 col-sm col-xxl col-xl col-md service-unit with-description1">
           <FontAwesomeIcon
             icon={faUserShield}
             size="2xl"
@@ -25,7 +25,7 @@ export default function Services() {
         </div>
 
         {/*SERVICE 2 */}
-        <div className="col ms-5 service-unit">
+        <div className="col-12 col-xxl col-xl col-md service-unit with-description2">
           <FontAwesomeIcon
             icon={faShieldHalved}
             size="2xl"
@@ -43,7 +43,7 @@ export default function Services() {
 
       <div className="row mt-5">
         {/*SERVICE 3 */}
-        <div className="col me-5 service-unit">
+        <div className="col-12 col-sm-5 col-xxl col-xl col-md service-unit without-description1">
           <FontAwesomeIcon
             icon={faHouseFire}
             size="2xl"
@@ -55,7 +55,7 @@ export default function Services() {
         </div>
 
         {/*SERVICE 4 */}
-        <div className="col ms-3 me-3 service-unit">
+        <div className="col-12 col-sm-5 col-xxl col-xl col-md service-unit without-description2">
           <FontAwesomeIcon
             icon={faEye}
             size="2xl"
@@ -65,7 +65,7 @@ export default function Services() {
         </div>
 
         {/*SERVICE 5 */}
-        <div className="col ms-5 service-unit">
+        <div className="col-12 col-sm-12 col-xxl col-xl col-md service-unit without-description3">
           <FontAwesomeIcon
             icon={faLandMineOn}
             size="2xl"

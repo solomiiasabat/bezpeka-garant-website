@@ -4,6 +4,11 @@
   --text-light: aliceblue;
 }
 
+.header-company-photo {
+  width: 600px;
+  height: 420px;
+}
+
 div.company-slogan-button {
   margin-top: 5%;
   margin-left: -100px;
@@ -68,7 +73,7 @@ div.company-slogan-button {
   top: 17%;
   padding: 20px;
   width: 85%;
-  height: 75%;
+  height: 65%;
   margin-left: -50%;
   text-align: left;
   z-index: 1;
@@ -86,6 +91,14 @@ div.company-slogan-button {
 .exit:hover {
   color: var(--main-yellow);
   transition: all 200ms ease-in-out;
+}
+
+.modal-main-text {
+  margin-top: 2rem;
+}
+
+.input-form {
+  margin-top: 4%;
 }
 
 .question-and-form {
@@ -120,4 +133,349 @@ div.company-slogan-button {
 
 #carouselExampleAutoplaying {
   z-index: -1;
+}
+
+/*!!! ADAPTIVE !!!*/
+@media (max-width: 1375px) {
+  div.header {
+    padding-top: 3%;
+  }
+}
+
+@media (max-width: 1220px) {
+  .modal-main-text {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 1190px) {
+  .header-company-photo {
+    width: 550px;
+    height: 400px;
+  }
+
+  div.company-slogan-button {
+    margin-left: -50px;
+  }
+
+  .company-name {
+    font-size: 16px;
+  }
+
+  .main-modal {
+    height: 65%;
+  }
+}
+
+@media (max-width: 1075px) {
+  div.col-4.company-slogan-button {
+    padding: 0 0;
+  }
+
+  .main-modal {
+    top: 19%;
+    margin-left: -53%;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-company-photo {
+    width: 450px;
+    height: 350px;
+  }
+
+  div.company-slogan-button {
+    margin-left: 0;
+  }
+
+  .company-name {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  div.row.mt-3.slogan {
+    margin-right: 0;
+    margin-left: 14px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .connect-button {
+    width: 190px;
+    font-size: 16px;
+    margin-left: 28px;
+  }
+
+  .main-modal {
+    margin-left: -54%;
+    top: 23%;
+  }
+}
+
+@media (max-width: 976px) {
+  .modal-main-text {
+    font-size: 21px;
+  }
+
+  .callMe-button {
+    font-size: 15px;
+  }
+
+  .text-under-form {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 935px) {
+  .phone-icon-button {
+    width: 55px;
+    height: 55px;
+    top: 70%;
+  }
+}
+
+@media (max-width: 802px) {
+  .header-company-photo {
+    width: 420px;
+    height: 315px;
+  }
+
+  div.row.mt-5.company-name {
+    font-size: 13.5px;
+    text-align: left;
+    margin-left: -18px;
+  }
+
+  div.row.mt-3.slogan {
+    margin-left: 0px;
+    font-size: 23px;
+  }
+
+  .connect-button {
+    width: 180px;
+    height: 50px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .main-modal {
+    margin-left: -57%;
+    top: 23%;
+  }
+}
+
+@media (max-width: 768px) {
+  div.header {
+    padding-top: 1%;
+  }
+
+  .company-photo-carousel {
+    margin-left: -15px;
+  }
+
+  .header-company-photo {
+    width: 380px;
+    height: 300px;
+  }
+
+  div.company-slogan-button {
+    margin-top: 0;
+  }
+
+  div.row.mt-5.company-name {
+    text-align: center;
+    margin-left: -12px;
+  }
+
+  div.row.mt-3.slogan {
+    margin-left: 0px;
+    font-size: 25px;
+  }
+
+  .connect-button {
+    margin-left: -17px;
+  }
+
+  .phone-icon-button {
+    top: 80%;
+  }
+
+  .main-modal {
+    height: 45%;
+    margin-left: -56%;
+  }
+}
+
+@media (max-width: 698px) {
+  .modal-main-text {
+    font-size: 17px;
+    margin-top: 0.5rem;
+  }
+
+  .main-modal {
+    margin-left: -59%;
+  }
+
+  .callMe-button {
+    font-size: 13px;
+  }
+
+  .text-under-form {
+    font-size: 13px;
+  }
+
+  .number-bar {
+    height: 46px;
+  }
+}
+
+@media (max-width: 565px) {
+  div.container.header {
+    padding-left: 4%;
+  }
+
+  .header-company-photo {
+    width: 340px;
+    height: 260px;
+  }
+
+  div.row.mt-5.company-name {
+    margin-left: -20px;
+  }
+
+  div.row.mt-3.slogan {
+    margin-left: -15px;
+  }
+
+  .connect-button {
+    margin-left: -5px;
+  }
+
+  .main-modal {
+    height: 60%;
+    margin-left: -56%;
+  }
+
+  .callMe-button {
+    font-size: 12px;
+    width: 160px;
+  }
+
+  .phone-icon-button {
+    left: 79%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-company-photo {
+    width: 310px;
+    height: 240px;
+  }
+
+  div.row.mt-5.company-name {
+    margin-left: -30px;
+  }
+
+  div.row.mt-3.slogan {
+    margin-left: -25px;
+    font-size: 23px;
+  }
+
+  .connect-button {
+    width: 150px;
+  }
+
+  div.main-modal {
+    margin-left: -56%;
+  }
+
+  .number-bar {
+    width: 50%;
+    height: 44px;
+  }
+
+  .callMe-button {
+    font-size: 11px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 425px) {
+  /*
+  div.company-photo-carousel {
+    margin-left: 10%;
+  }
+
+  div.header-company-photo {
+    width: 350px;
+    height: 260px;
+  }
+
+  div.company-slogan-button {
+    margin-left: 35%;
+  }*/
+
+  div.company-photo-carousel {
+    margin-top: 5%;
+  }
+
+  .header-company-photo {
+    width: 290px;
+    height: 220px;
+  }
+
+  .connect-button {
+    width: 120px;
+    margin-left: -30px;
+  }
+
+  div.main-modal {
+    margin-left: -72%;
+    height: 55%;
+    width: 95%;
+  }
+
+  .modal-main-text {
+    font-size: 15px;
+    margin-top: 0.5rem;
+  }
+
+  .phone-icon-button {
+    left: 76%;
+    top: 78%;
+  }
+}
+
+@media (max-width: 380px) {
+  .header-company-photo {
+    width: 270px;
+    height: 205px;
+  }
+
+  div.row.mt-5.company-name {
+    margin-left: -30px;
+    font-size: 13px;
+  }
+
+  div.row.mt-3.slogan {
+    margin-left: -25px;
+    font-size: 21px;
+  }
+
+  .connect-button {
+    width: 115px;
+    margin-left: -34px;
+  }
+}
+
+@media (max-width: 375px) {
+  input.number-bar.me-2.p-2 {
+    width: 40%;
+    height: 44px;
+  }
+
+  .callMe-button {
+    font-size: 11px;
+    width: 150px;
+  }
 }
