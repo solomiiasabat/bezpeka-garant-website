@@ -357,7 +357,7 @@ div.company-slogan-button {
   }
 
   .main-modal {
-    height: 50%;
+    height: 40%;
     margin-left: -56%;
   }
 
@@ -405,7 +405,7 @@ div.company-slogan-button {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   /*
   div.company-photo-carousel {
     margin-left: 10%;
@@ -435,13 +435,13 @@ div.company-slogan-button {
   }
 
   div.main-modal {
-    margin-left: -72%;
-    height: 55%;
+    margin-left: -65%;
+    height: 45%;
     width: 95%;
   }
 
   .modal-main-text {
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 0.5rem;
   }
 
@@ -451,7 +451,7 @@ div.company-slogan-button {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   div.company-photo-carousel {
     margin-top: 7%;
   }
@@ -477,7 +477,7 @@ div.company-slogan-button {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   input.number-bar.me-2.p-2 {
     width: 50%;
     height: 44px;
