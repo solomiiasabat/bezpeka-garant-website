@@ -51,10 +51,11 @@ export default function Header() {
         <div className="row pt-2">
           <div
             id="carouselExampleAutoplaying"
-            className="col-9 col-sm-9 col-xxl-8 col-xl-8 col-md-8 carousel slide company-photo-carousel"
+            className="col-9 col-sm-9 col-xxl-8 col-xl-8 col-md-8 carousel slide carousel-dark slide company-photo-carousel"
             data-bs-ride="carousel"
-            data-bs-interval="3000"
+            data-bs-interval="5000"
             data-bs-touch="true"
+            data-bs-wrap="true"
           >
             <div className="carousel-inner">
               <div className="carousel-item active">
