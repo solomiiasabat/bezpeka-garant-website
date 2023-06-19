@@ -339,6 +339,11 @@ div.company-slogan-button {
     height: 260px;
   }
 
+  div.company-slogan-button {
+    margin-top: 0;
+    margin-left: -30px;
+  }
+
   div.row.mt-5.company-name {
     margin-left: -20px;
   }
@@ -348,11 +353,11 @@ div.company-slogan-button {
   }
 
   .connect-button {
-    margin-left: -5px;
+    margin-left: -40px;
   }
 
   .main-modal {
-    height: 60%;
+    height: 50%;
     margin-left: -56%;
   }
 

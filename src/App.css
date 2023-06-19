@@ -410,7 +410,7 @@ div.col.mb-2.location {
   }
 }
 
-@media (max-width: 1076px) {
+@media (max-width: 1081px) {
   /*ABOUT COMPANY*/
   img.ps-3.company-staff-photo {
     width: 430px;
@@ -926,7 +926,8 @@ div.col.mb-2.location {
 
   /*SERVICES*/
   div.container.services {
-    padding-right: 4%;
+    padding-right: 15%;
+    padding-left: 15%;
     margin-top: 40px;
     margin-bottom: 10px;
   }
