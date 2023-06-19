@@ -57,7 +57,7 @@ export default function Header() {
             data-bs-touch="true"
           >
             <div className="carousel-inner">
-              <div className="carousel-item  active">
+              <div className="carousel-item active">
                 <img
                   src={photo1}
                   className="d-block header-company-photo"
@@ -79,6 +79,30 @@ export default function Header() {
                 ></img>
               </div>
             </div>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden"></span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden"></span>
+            </button>
           </div>
 
           <div className="col-3 col-sm-3 col-xxl-4 col-xl-4 col-md-4 company-slogan-button">

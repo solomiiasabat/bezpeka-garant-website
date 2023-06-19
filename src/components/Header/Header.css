@@ -9,6 +9,22 @@
   height: 420px;
 }
 
+.carousel-control-next-icon {
+  margin-left: -200%;
+}
+
+.carousel-control-prev-icon {
+  margin-left: -50%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: lightslategray;
+  border: 1px solid lightslategray;
+  border-radius: 20%;
+  padding: 10px;
+}
+
 div.company-slogan-button {
   margin-top: 5%;
   margin-left: -100px;
@@ -459,6 +475,11 @@ div.company-slogan-button {
   .header-company-photo {
     width: 270px;
     height: 205px;
+  }
+
+  div.company-slogan-button {
+    margin-top: 0;
+    margin-left: -10px;
   }
 
   div.row.mt-5.company-name {
