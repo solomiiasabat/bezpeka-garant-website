@@ -1039,7 +1039,7 @@ div.col.mb-2.location {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   /*NAVBAR*/
   div#navbarNav.navbar-collapse.collapse.show {
     margin-left: -20px;
@@ -1053,7 +1053,7 @@ div.col.mb-2.location {
 
   /*PRICES*/
   .price-modal-window {
-    margin-left: 16%;
+    margin-left: 12%;
   }
 
   /*SECURITY SYSTEMS*/
@@ -1114,7 +1114,7 @@ div.col.mb-2.location {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   /*ABOUT COMPANY*/
   img.ps-3.company-staff-photo {
     width: 350px;
@@ -1143,7 +1143,7 @@ div.col.mb-2.location {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   /*NAVBAR*/
   div#navbarNav.navbar-collapse.collapse.show {
     margin-left: -35px;
