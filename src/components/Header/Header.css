@@ -140,7 +140,7 @@ div.company-slogan-button {
 }
 
 #carouselExampleAutoplaying {
-  z-index: -1;
+  z-index: 1;
 }
 
 /*!!! ADAPTIVE !!!*/

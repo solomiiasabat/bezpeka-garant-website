@@ -90,7 +90,6 @@ export default function Header() {
                 className="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span className="visually-hidden"></span>
             </button>
             <button
               className="carousel-control-next"
@@ -102,7 +101,6 @@ export default function Header() {
                 className="carousel-control-next-icon"
                 aria-hidden="true"
               ></span>
-              <span className="visually-hidden"></span>
             </button>
           </div>
 
