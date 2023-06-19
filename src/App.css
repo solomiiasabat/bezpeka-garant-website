@@ -1113,11 +1113,12 @@ div.col.mb-2.location {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
   /*ABOUT COMPANY*/
   img.ps-3.company-staff-photo {
     width: 350px;
     height: 220px;
+    margin-left: -20px;
   }
 
   /*PRICES*/
@@ -1128,6 +1129,7 @@ div.col.mb-2.location {
   /*FOOTER*/
   .footer-contacts li {
     font-size: 11px;
+    padding-bottom: 10px;
   }
 
   .location-map {
@@ -1150,6 +1152,7 @@ div.col.mb-2.location {
   img.ps-3.company-staff-photo {
     width: 320px;
     height: 207px;
+    margin-left: -10px;
   }
 
   /*FOOTER*/
@@ -1158,5 +1161,125 @@ div.col.mb-2.location {
   }
   div.col.mt-4.contacts {
     margin-left: 11%;
+  }
+}
+
+@media (max-width: 360px) {
+  /*ABOUT COMPANY*/
+  .aboutCompany {
+    padding-top: 10%;
+  }
+
+  img.ps-3.company-staff-photo {
+    width: 300px;
+    height: 190px;
+    margin-left: -5px;
+  }
+
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 5%;
+  }
+
+  /*SECURITY SYSTEMS*/
+  img.tiras-logo {
+    padding-left: 10px;
+  }
+
+  /*FOOTER*/
+  .location-map {
+    width: 320px;
+    height: 170px;
+  }
+
+  div.col.mb-2.location {
+    padding-left: 25px;
+  }
+}
+
+@media (max-width: 349px) {
+  /*SECURITY SYSTEMS*/
+  div.col.col-device-photos {
+    margin-left: 7%;
+  }
+  img.ajax-logo {
+    padding-left: 10px;
+  }
+
+  img.tiras-logo {
+    padding-left: 15px;
+  }
+  /*FOOTER*/
+  div.col.mb-2.location {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 335px) {
+  /*ABOUT COMPANY*/
+  img.ps-3.company-staff-photo {
+    margin-left: -10px;
+  }
+
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 0;
+  }
+
+  /*SECURITY SYSTEMS*/
+  div.col.col-device-photos {
+    margin-left: 4%;
+  }
+
+  /*FOOTER*/
+  .location-map {
+    width: 300px;
+    height: 170px;
+  }
+}
+
+@media (max-width: 321px) {
+  /*ABOUT COMPANY*/
+  img.ps-3.company-staff-photo {
+    margin-left: -20px;
+  }
+
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: -5%;
+  }
+
+  /*SECURITY SYSTEMS*/
+  img.ajax-logo,
+  img.tiras-logo {
+    width: 130px;
+  }
+
+  .ajax-devices {
+    width: 235px;
+  }
+
+  .tiras-devices {
+    width: 290px;
+  }
+
+  .ajax-devices,
+  .tiras-devices {
+    height: 150px;
+  }
+
+  /*FOOTER*/
+  .pagecontent li,
+  .footer-contacts li {
+    font-size: 10px;
+  }
+
+  .location-map {
+    width: 280px;
+    height: 170px;
+  }
+
+  div.col.mb-2.location {
+    padding-left: 20px;
   }
 }
