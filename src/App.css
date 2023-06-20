@@ -311,6 +311,26 @@ div.col.mb-2.location {
     margin-left: 50%;
   }
 
+  /*SECURITY SYSTEMS*/
+  .ajax-logo,
+  .tiras-logo {
+    width: 170px;
+    height: 35px;
+  }
+
+  .ajax-devices {
+    width: 320px;
+  }
+
+  .tiras-devices {
+    width: 455px;
+  }
+
+  .ajax-devices,
+  .tiras-devices {
+    height: 235px;
+  }
+
   /*FOOTER*/
   .footer-logo img {
     margin-left: -10%;
@@ -348,25 +368,6 @@ div.col.mb-2.location {
   /*SECURITY SYSYTEMS */
   .security-system-description {
     font-size: 16px;
-  }
-
-  .ajax-logo,
-  .tiras-logo {
-    width: 170px;
-    height: 35px;
-  }
-
-  .ajax-devices {
-    width: 320px;
-  }
-
-  .tiras-devices {
-    width: 455px;
-  }
-
-  .ajax-devices,
-  .tiras-devices {
-    height: 235px;
   }
 
   /*FOOTER*/
