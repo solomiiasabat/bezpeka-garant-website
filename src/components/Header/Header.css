@@ -65,6 +65,7 @@ div.company-slogan-button {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
   color: var(--main-blue);
+  z-index: 1;
 }
 
 .phone-icon-button:hover {
@@ -484,10 +485,6 @@ div.company-slogan-button {
   div.company-slogan-button {
     margin-left: 35%;
   }*/
-
-  .carousel-control-next-icon {
-    margin-left: -140%;
-  }
 
   .carousel-control-prev-icon {
     margin-left: 10px;
