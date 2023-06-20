@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import logo1 from "./logo/logo1.png";
 
 export default function Navbar() {
   function openBar() {
@@ -14,7 +15,7 @@ export default function Navbar() {
       <div className="container-fluid">
         <a className="navbar-brand  ms-3" href="/Navbar">
           <img
-            src="logo1.png"
+            src={logo1}
             className="navbar-company-logo"
             alt="Company Logo"
           ></img>
@@ -39,7 +40,7 @@ export default function Navbar() {
           </span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav navbar-menu-list me-auto ms-5 mt-4 mb-3">
             <li className="nav-item ms-2 me-2">
               <Link

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import logo1 from "./logo/logo1.png";
 
 export default function Footer() {
   function openBar() {
@@ -17,7 +18,7 @@ export default function Footer() {
         <div className="row">
           <div className="col mt-4 footer-logo">
             {" "}
-            <img src="logo1.png" alt="small logo"></img>
+            <img src={logo1} alt="small logo"></img>
           </div>
 
           <div className="col mt-4 pagecontent">

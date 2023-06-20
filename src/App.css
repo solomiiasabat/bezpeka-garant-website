@@ -270,7 +270,7 @@ div.col.mb-2.location {
 @media (max-width: 1375px) {
   /*PRICES*/
   .price-modal-window {
-    margin-left: 100%;
+    margin-left: 86%;
   }
 
   /*FOOTER*/
@@ -288,11 +288,6 @@ div.col.mb-2.location {
 }
 
 @media (max-width: 1310px) {
-  /*PRICES*/
-  .price-modal-window {
-    margin-left: 86%;
-  }
-
   /*FOOTER*/
   .footer-logo img {
     margin-left: -30%;
@@ -313,7 +308,7 @@ div.col.mb-2.location {
 
   /*PRICES*/
   .price-modal-window {
-    margin-left: 20%;
+    margin-left: 50%;
   }
 
   /*FOOTER*/
@@ -343,6 +338,11 @@ div.col.mb-2.location {
   .important-text {
     font-size: 17px;
     font-weight: bold;
+  }
+
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 20%;
   }
 
   /*SECURITY SYSYTEMS */
@@ -579,7 +579,7 @@ div.col.mb-2.location {
     font-size: 13.5px;
   }
 
-  .location {
+  div.col.mb-2.location {
     margin-right: -18%;
   }
 
@@ -611,7 +611,7 @@ div.col.mb-2.location {
     height: 205px;
   }
 
-  .location {
+  div.col.mb-2.location {
     margin-right: -11%;
   }
 }
@@ -663,7 +663,7 @@ div.col.mb-2.location {
     height: 200px;
   }
 
-  .location {
+  div.col.mb-2.location {
     margin-right: -6%;
   }
 }
@@ -747,6 +747,16 @@ div.col.mb-2.location {
     height: 280px;
   }
   /*SERVICES*/
+  .with-description1,
+  .with-description2 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .with-description1 {
+    margin-bottom: 2.7rem;
+  }
+
   .without-description1 {
     margin-left: 0.7rem;
     margin-right: 2rem;
@@ -803,7 +813,7 @@ div.col.mb-2.location {
     margin-left: -120px;
   }
 
-  .location {
+  div.col.mb-2.location {
     margin-right: -15%;
   }
 }
@@ -889,39 +899,24 @@ div.col.mb-2.location {
   .footer-logo img {
     margin-left: -40%;
   }
-}
-
-@media (max-width: 582px) {
-  /*FOOTER*/
   .location-map {
     width: 270px;
     height: 170px;
   }
 
-  .footer-logo img {
-    margin-left: -25%;
+  div.col.mb-2.location {
+    margin-left: 45%;
+    margin-top: -6rem;
+    margin-right: 0;
   }
 }
 
-@media (max-width: 565px) {
+@media (max-width: 582px) {
   .aboutCompany,
   div.container.services,
   .prices,
   .securitySystems {
     padding-left: 4%;
-  }
-
-  .aboutCompany-chapter-title,
-  .service-chapter-title,
-  .securitySystems-chapter-title,
-  .prices-chapter-title {
-    font-size: 21px;
-  }
-
-  /*NAVBAR*/
-  .navbar-company-logo {
-    width: 55px;
-    height: 55px;
   }
 
   /*SERVICES*/
@@ -947,13 +942,33 @@ div.col.mb-2.location {
     margin-bottom: 2.7rem;
   }
 
+  /*FOOTER*/
+  .footer-logo img {
+    margin-left: -15%;
+  }
+}
+
+@media (max-width: 565px) {
+  .aboutCompany-chapter-title,
+  .service-chapter-title,
+  .securitySystems-chapter-title,
+  .prices-chapter-title {
+    font-size: 21px;
+  }
+
+  /*NAVBAR*/
+  .navbar-company-logo {
+    width: 55px;
+    height: 55px;
+  }
+
   /*PRICES*/
   section.prices {
     margin-top: 50px;
   }
 
-  div.main-modal {
-    margin-left: -63%;
+  .price-modal-window {
+    margin-left: 17%;
   }
 
   /*SECURITY SYSYTEMS */
@@ -1010,6 +1025,11 @@ div.col.mb-2.location {
     height: 250px;
   }
 
+  /*SECURITY SYSYTEMS */
+  div.col.col-device-photos {
+    margin-left: 10%;
+  }
+
   /*FOOTER*/
   div.col.mb-2.location {
     padding-left: 65px;
@@ -1029,6 +1049,11 @@ div.col.mb-2.location {
 }
 
 @media (max-width: 440px) {
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 13%;
+  }
+
   /*FOOTER*/
   div.col.mt-4.pagecontent {
     margin-left: 20%;
@@ -1105,7 +1130,7 @@ div.col.mb-2.location {
 @media (max-width: 397px) {
   /*PRICES*/
   .price-modal-window {
-    margin-left: 12%;
+    margin-left: 9%;
   }
 
   /*FOOTER*/
@@ -1156,6 +1181,11 @@ div.col.mb-2.location {
     margin-left: -10px;
   }
 
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 5%;
+  }
+
   /*FOOTER*/
   div.col.mt-4.pagecontent {
     margin-left: 7%;
@@ -1179,7 +1209,7 @@ div.col.mb-2.location {
 
   /*PRICES*/
   .price-modal-window {
-    margin-left: 5%;
+    margin-left: 3%;
   }
 
   /*SECURITY SYSTEMS*/
@@ -1224,7 +1254,7 @@ div.col.mb-2.location {
 
   /*PRICES*/
   .price-modal-window {
-    margin-left: 0;
+    margin-left: -2%;
   }
 
   /*SECURITY SYSTEMS*/
