@@ -32,7 +32,7 @@ export default function SecuritySystems() {
           </div>
           <div className="col col-device-photos">
             <div
-              id="carouselExampleAutoplaying"
+              id="carouselExampleAutoplaying2"
               className="carousel slide"
               data-bs-ride="carousel"
             >

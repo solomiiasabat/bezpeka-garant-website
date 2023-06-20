@@ -14,7 +14,7 @@
 }
 
 .carousel-control-prev-icon {
-  margin-left: -50%;
+  margin-left: -100%;
 }
 
 div.company-slogan-button {
@@ -203,7 +203,7 @@ div.company-slogan-button {
 
   div.row.mt-3.slogan {
     margin-right: 0;
-    margin-left: 14px;
+    margin-left: 5px;
     text-align: center;
     font-size: 25px;
   }
@@ -211,7 +211,7 @@ div.company-slogan-button {
   .connect-button {
     width: 190px;
     font-size: 16px;
-    margin-left: 28px;
+    margin-left: 12px;
   }
 
   .main-modal {
@@ -250,7 +250,7 @@ div.company-slogan-button {
 
   div.row.mt-5.company-name {
     font-size: 13.5px;
-    text-align: left;
+    text-align: center;
     margin-left: -18px;
   }
 
@@ -309,12 +309,20 @@ div.company-slogan-button {
   }
 
   .main-modal {
-    height: 45%;
+    height: 50%;
     margin-left: -56%;
   }
 }
 
 @media (max-width: 698px) {
+  .carousel-control-next-icon {
+    margin-left: -140%;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left: -70%;
+  }
+
   .modal-main-text {
     font-size: 17px;
     margin-top: 0.5rem;
@@ -337,6 +345,31 @@ div.company-slogan-button {
   }
 }
 
+@media (max-width: 582px) {
+  button.connect-button.mt-4 {
+    margin-left: -30px;
+  }
+
+  .main-modal {
+    margin-left: -67%;
+  }
+}
+
+@media (max-width: 575px) {
+  div.company-slogan-button {
+    margin-top: 0;
+    margin-left: -38px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left: -20%;
+  }
+
+  .main-modal {
+    margin-left: -60%;
+  }
+}
+
 @media (max-width: 565px) {
   div.container.header {
     padding-left: 4%;
@@ -348,8 +381,7 @@ div.company-slogan-button {
   }
 
   div.company-slogan-button {
-    margin-top: 0;
-    margin-left: -30px;
+    margin-left: -40px;
   }
 
   div.row.mt-5.company-name {
@@ -360,12 +392,12 @@ div.company-slogan-button {
     margin-left: -15px;
   }
 
-  .connect-button {
-    margin-left: -40px;
+  button.connect-button.mt-4 {
+    margin-left: -50px;
   }
 
   .main-modal {
-    height: 40%;
+    height: 50%;
     margin-left: -56%;
   }
 
@@ -385,6 +417,14 @@ div.company-slogan-button {
     height: 240px;
   }
 
+  .company-photo-carousel {
+    margin-top: 5%;
+  }
+
+  div.company-slogan-button {
+    margin-left: -25px;
+  }
+
   div.row.mt-5.company-name {
     margin-left: -30px;
   }
@@ -394,12 +434,13 @@ div.company-slogan-button {
     font-size: 23px;
   }
 
-  .connect-button {
+  button.connect-button.mt-4 {
+    margin-left: -35px;
     width: 150px;
   }
 
   div.main-modal {
-    margin-left: -56%;
+    margin-left: -61%;
   }
 
   .number-bar {
@@ -410,6 +451,22 @@ div.company-slogan-button {
   .callMe-button {
     font-size: 11px;
     width: 150px;
+  }
+}
+
+@media (max-width: 440px) {
+  div.company-photo-carousel {
+    margin-top: 5%;
+  }
+
+  .header-company-photo {
+    width: 290px;
+    height: 220px;
+  }
+
+  button.connect-button.mt-4 {
+    width: 120px;
+    margin-left: -30px;
   }
 }
 
@@ -428,18 +485,12 @@ div.company-slogan-button {
     margin-left: 35%;
   }*/
 
-  div.company-photo-carousel {
-    margin-top: 5%;
+  .carousel-control-next-icon {
+    margin-left: -140%;
   }
 
-  .header-company-photo {
-    width: 290px;
-    height: 220px;
-  }
-
-  .connect-button {
-    width: 120px;
-    margin-left: -30px;
+  .carousel-control-prev-icon {
+    margin-left: 10px;
   }
 
   div.main-modal {
@@ -459,7 +510,7 @@ div.company-slogan-button {
   }
 }
 
-@media (max-width: 391px) {
+@media (max-width: 397px) {
   div.company-photo-carousel {
     margin-top: 7%;
   }
@@ -484,9 +535,13 @@ div.company-slogan-button {
     font-size: 21px;
   }
 
-  .connect-button {
+  button.connect-button.mt-4 {
     width: 115px;
-    margin-left: -34px;
+    margin-left: -32px;
+  }
+
+  div.main-modal {
+    margin-left: -70%;
   }
 }
 
@@ -512,18 +567,8 @@ div.company-slogan-button {
 
 @media (max-width: 349px) {
   .header-company-photo {
-    width: 250px;
-    height: 195px;
-  }
-}
-
-@media (max-width: 335px) {
-  .header-company-photo {
     width: 220px;
     height: 185px;
-  }
-  div.company-photo-carousel {
-    margin-top: 15%;
   }
 
   div.company-slogan-button {
@@ -534,11 +579,17 @@ div.company-slogan-button {
     width: 60%;
   }
 
-  .callMe-button {
+  input.callMe-button {
     margin-top: 10px;
     width: 175px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+
+@media (max-width: 335px) {
+  div.company-photo-carousel {
+    margin-top: 15%;
   }
 }
 
