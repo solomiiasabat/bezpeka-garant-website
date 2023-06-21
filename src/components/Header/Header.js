@@ -106,7 +106,7 @@ export default function Header() {
 
           <div className="col-3 col-sm-3 col-xxl-4 col-xl-4 col-md-4 company-slogan-button">
             <div className="row mt-5 company-name" ref={containerRef}>
-              Охоронні послуги ТОВ "Безпека-Гарант"
+              ТОВ "Безпека-Гарант"
             </div>
             <div className="row mt-3 slogan">З нами безпечно!</div>
             {isVisible ? (
