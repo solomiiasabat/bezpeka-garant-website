@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <nav className="navbar sticky-top navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand  ms-3" href="/Navbar">
+        <a className="navbar-brand  ms-3" href="#">
           <img
             src={logo1}
             className="navbar-company-logo"
