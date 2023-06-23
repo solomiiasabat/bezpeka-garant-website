@@ -1,9 +1,31 @@
+import { useState, useEffect, useCallback } from "react";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import logo1 from "./logo/logo1.png";
 
 export default function Navbar() {
+  // CHANGE NAV-LOGO ON SCROLL
+  const [changeLogo, setChangeLogo] = useState(false);
+
+  const changeLogoSize = useCallback(() => {
+    const threshold = 10;
+    if (window.scrollY >= threshold && changeLogo !== true) {
+      setChangeLogo(true);
+    }
+    if (window.scrollY < threshold && changeLogo !== false) {
+      setChangeLogo(false);
+    }
+  }, [window.scrollY]);
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeLogoSize);
+    return () => {
+      window.removeEventListener("scroll", changeLogoSize);
+    };
+  }, [changeLogoSize]);
+
+  // FUNCTION FOR A SPYSCROLL
   function openBar() {
     const bar = document.querySelector(".navbar-nav");
 
@@ -16,7 +38,9 @@ export default function Navbar() {
         <a className="navbar-brand  ms-3" href="#">
           <img
             src={logo1}
-            className="navbar-company-logo"
+            className={
+              changeLogo ? "navbar-company-logo" : "navbar-company-logo-big"
+            }
             alt="Company Logo"
           ></img>
         </a>

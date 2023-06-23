@@ -182,6 +182,11 @@
 }
 
 /*NAVBAR*/
+.navbar-company-logo-big {
+  width: 100px;
+  height: 100px;
+}
+
 .navbar-company-logo {
   width: 70px;
   height: 70px;
@@ -741,6 +746,12 @@ div.col.mb-2.location {
 }
 
 @media (max-width: 768px) {
+  /*NAVBAR*/
+  .navbar-company-logo-big {
+    width: 90px;
+    height: 90px;
+  }
+
   /*ABOUT COMPANY*/
   img.ps-3.company-staff-photo {
     margin-top: 15px;
@@ -1020,6 +1031,12 @@ div.col.mb-2.location {
 }
 
 @media (max-width: 500px) {
+  /*NAVBAR*/
+  .navbar-company-logo-big {
+    width: 80px;
+    height: 80px;
+  }
+
   /*ABOUT COMPANY*/
   img.ps-3.company-staff-photo {
     width: 400px;
@@ -1129,6 +1146,12 @@ div.col.mb-2.location {
 }
 
 @media (max-width: 397px) {
+  /*NAVBAR*/
+  .navbar-company-logo-big {
+    width: 70px;
+    height: 70px;
+  }
+
   /*PRICES*/
   .price-modal-window {
     margin-left: 9%;
