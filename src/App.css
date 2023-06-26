@@ -20,7 +20,6 @@
 
 .aboutCompany,
 .services {
-  margin-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -42,6 +41,10 @@
 }
 
 /*ABOUT COMPANY*/
+.aboutCompany {
+  margin-top: 50px;
+}
+
 .info-aboutCompany {
   font-size: 16px;
   padding: 0 20px 0 0;
@@ -54,6 +57,10 @@
 }
 
 /*SERVICES*/
+.services {
+  margin-top: 100px;
+}
+
 .service-unit {
   background-color: var(--main-blue);
   padding-bottom: 20px;
@@ -185,11 +192,13 @@
 .navbar-company-logo-big {
   width: 100px;
   height: 100px;
+  transition: all 0.15s ease-in 0s;
 }
 
 .navbar-company-logo {
   width: 70px;
   height: 70px;
+  transition: all 0.15s ease-in 0s;
 }
 
 .hamburger-menu-icon {
