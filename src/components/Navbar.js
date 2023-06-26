@@ -76,7 +76,7 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={50}
-                offset={-230}
+                offset={-170}
               >
                 Про компанію
               </Link>
@@ -91,7 +91,7 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={50}
-                offset={-200}
+                offset={-140}
               >
                 Послуги
               </Link>
@@ -106,7 +106,7 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={50}
-                offset={-240}
+                offset={-160}
               >
                 Ціни
               </Link>
