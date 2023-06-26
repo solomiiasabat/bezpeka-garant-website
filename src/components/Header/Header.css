@@ -4,6 +4,10 @@
   --text-light: aliceblue;
 }
 
+.header {
+  margin-top: -20px;
+}
+
 .header-company-photo {
   width: 600px;
   height: 420px;
