@@ -24,6 +24,7 @@
 div.company-slogan-button {
   margin-top: 5%;
   margin-left: -100px;
+  z-index: 4;
 }
 
 .company-name {
@@ -84,7 +85,7 @@ div.company-slogan-button {
   border: 1px solid var(--main-blue);
   color: var(--main-blue);
   position: fixed;
-  top: 17%;
+  top: 23%;
   padding: 20px;
   width: 85%;
   height: 65%;
