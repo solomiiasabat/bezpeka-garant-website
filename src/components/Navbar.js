@@ -16,7 +16,7 @@ export default function Navbar() {
     if (window.scrollY < threshold && changeLogo !== false) {
       setChangeLogo(false);
     }
-  }, [window.scrollY]);
+  }, [changeLogo]);
 
   useEffect(() => {
     window.addEventListener("scroll", changeLogoSize);
