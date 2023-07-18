@@ -155,11 +155,19 @@ div.company-slogan-button {
   div.header {
     padding-top: 3%;
   }
+
+  .main-modal {
+    height: 45%;
+  }
 }
 
 @media (max-width: 1220px) {
   .modal-main-text {
     font-size: 23px;
+  }
+
+  .main-modal {
+    margin-left: -55%;
   }
 }
 
@@ -185,7 +193,7 @@ div.company-slogan-button {
   }
 
   .main-modal {
-    height: 65%;
+    margin-left: -52%;
   }
 }
 
@@ -252,9 +260,14 @@ div.company-slogan-button {
 
 @media (max-width: 935px) {
   .phone-icon-button {
-    width: 55px;
-    height: 55px;
+    width: 57px;
+    height: 57px;
     top: 70%;
+  }
+
+  .main-modal {
+    height: 40%;
+    margin-left: -56%;
   }
 }
 
@@ -326,8 +339,8 @@ div.company-slogan-button {
   }
 
   .main-modal {
-    height: 50%;
-    margin-left: -56%;
+    height: 48%;
+    margin-left: -62%;
   }
 }
 
@@ -346,7 +359,8 @@ div.company-slogan-button {
   }
 
   .main-modal {
-    margin-left: -59%;
+    height: 45%;
+    margin-left: -64%;
   }
 
   .callMe-button {
@@ -382,7 +396,7 @@ div.company-slogan-button {
   }
 
   .main-modal {
-    margin-left: -60%;
+    margin-left: -63%;
   }
 }
 
@@ -415,7 +429,7 @@ div.company-slogan-button {
 
   .main-modal {
     height: 50%;
-    margin-left: -56%;
+    margin-left: -64%;
   }
 
   .callMe-button {
@@ -456,7 +470,7 @@ div.company-slogan-button {
   }
 
   div.main-modal {
-    margin-left: -61%;
+    margin-left: -65%;
   }
 
   .number-bar {
@@ -488,6 +502,10 @@ div.company-slogan-button {
   button.connect-button.mt-4 {
     margin-left: -50px;
   }
+
+  div.main-modal {
+    margin-left: -67%;
+  }
 }
 
 @media (max-width: 440px) {
@@ -507,26 +525,12 @@ div.company-slogan-button {
 }
 
 @media (max-width: 426px) {
-  /*
-  div.company-photo-carousel {
-    margin-left: 10%;
-  }
-
-  div.header-company-photo {
-    width: 350px;
-    height: 260px;
-  }
-
-  div.company-slogan-button {
-    margin-left: 35%;
-  }*/
-
   .carousel-control-prev-icon {
     margin-left: 10px;
   }
 
   div.main-modal {
-    margin-left: -65%;
+    margin-left: -73%;
     height: 35%;
     width: 95%;
   }
@@ -571,10 +575,6 @@ div.company-slogan-button {
     width: 115px;
     margin-left: -40px;
   }
-
-  div.main-modal {
-    margin-left: -70%;
-  }
 }
 
 @media (max-width: 376px) {
@@ -608,6 +608,10 @@ div.company-slogan-button {
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  div.main-modal {
+    margin-left: -76%;
+  }
 }
 
 @media (max-width: 360px) {
@@ -638,6 +642,10 @@ div.company-slogan-button {
     margin-left: -49px;
   }
 
+  div.main-modal {
+    margin-left: -71%;
+  }
+
   input.number-bar.me-2.p-2 {
     width: 60%;
   }
@@ -647,6 +655,7 @@ div.company-slogan-button {
     width: 175px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: -3%;
   }
 }
 
@@ -670,6 +679,6 @@ div.company-slogan-button {
   }
 
   div.main-modal {
-    margin-left: -70%;
+    margin-left: -75%;
   }
 }

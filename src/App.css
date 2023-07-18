@@ -329,7 +329,7 @@ div.col.mb-2.location {
 
   /*PRICES*/
   .price-modal-window {
-    margin-left: 50%;
+    margin-left: 25%;
   }
 
   /*SECURITY SYSTEMS*/
@@ -739,6 +739,10 @@ div.col.mb-2.location {
     font-size: 15px;
   }
 
+  .price-modal-window {
+    margin-left: 28%;
+  }
+
   /*SECURITY SYSTEMS*/
   div.col.col-device-photos {
     margin-right: -10px;
@@ -825,6 +829,11 @@ div.col.mb-2.location {
   .ajax-devices,
   .tiras-devices {
     height: 160px;
+  }
+
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 35%;
   }
 
   /*FOOTER*/
@@ -970,6 +979,11 @@ div.col.mb-2.location {
     margin-bottom: 2.7rem;
   }
 
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 30%;
+  }
+
   /*FOOTER*/
   .footer-logo img {
     margin-left: -15%;
@@ -996,7 +1010,7 @@ div.col.mb-2.location {
   }
 
   .price-modal-window {
-    margin-left: 17%;
+    margin-left: 27%;
   }
 
   /*SECURITY SYSYTEMS */
@@ -1064,6 +1078,11 @@ div.col.mb-2.location {
     margin-left: 10%;
   }
 
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 22%;
+  }
+
   /*FOOTER*/
   div.col.mb-2.location {
     padding-left: 65px;
@@ -1085,7 +1104,7 @@ div.col.mb-2.location {
 @media (max-width: 440px) {
   /*PRICES*/
   .price-modal-window {
-    margin-left: 13%;
+    margin-left: 17%;
   }
 
   /*FOOTER*/
@@ -1112,7 +1131,7 @@ div.col.mb-2.location {
 
   /*PRICES*/
   .price-modal-window {
-    margin-left: 6.5%;
+    margin-left: 16%;
   }
 
   /*SECURITY SYSTEMS*/
@@ -1170,7 +1189,7 @@ div.col.mb-2.location {
 
   /*PRICES*/
   .price-modal-window {
-    margin-left: 9%;
+    margin-left: 13%;
   }
 
   /*FOOTER*/
@@ -1186,12 +1205,10 @@ div.col.mb-2.location {
     height: 220px;
     margin-left: -20px;
   }
-
   /*PRICES*/
   .price-modal-window {
-    margin-left: 9%;
+    margin-left: 12%;
   }
-
   /*FOOTER*/
   .footer-contacts li {
     font-size: 11px;
@@ -1221,11 +1238,6 @@ div.col.mb-2.location {
     margin-left: -10px;
   }
 
-  /*PRICES*/
-  .price-modal-window {
-    margin-left: 5%;
-  }
-
   /*FOOTER*/
   div.col.mt-4.pagecontent {
     margin-left: 7%;
@@ -1249,7 +1261,7 @@ div.col.mb-2.location {
 
   /*PRICES*/
   .price-modal-window {
-    margin-left: 3%;
+    margin-left: 10%;
   }
 
   /*SECURITY SYSTEMS*/
@@ -1269,6 +1281,11 @@ div.col.mb-2.location {
 }
 
 @media (max-width: 349px) {
+  /*PRICES*/
+  .price-modal-window {
+    margin-left: 1%;
+  }
+
   /*SECURITY SYSTEMS*/
   div.col.col-device-photos {
     margin-left: 7%;
@@ -1317,7 +1334,7 @@ div.col.mb-2.location {
 
   /*PRICES*/
   .price-modal-window {
-    margin-left: -5%;
+    margin-left: -1%;
   }
 
   /*SECURITY SYSTEMS*/
