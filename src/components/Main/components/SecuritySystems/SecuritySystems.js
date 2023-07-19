@@ -1,5 +1,5 @@
 import Ajax from "../images/ajax-logo.jpg";
-import Tiras from "../images/tiras-logo.svg";
+import Tiras from "../images/tiras-logo.png";
 import device1 from "./device-images/device1.png";
 import device2 from "./device-images/device2.png";
 
