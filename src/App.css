@@ -765,7 +765,7 @@ div.col.mb-2.location {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   /*NAVBAR*/
   .navbar-company-logo-big {
     width: 90px;
