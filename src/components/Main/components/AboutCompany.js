@@ -10,9 +10,9 @@ export default function AboutCompany() {
             <p className="aboutCompany-description">
               <span className="important-text">ТОВ «Безпека-Гарант»</span> — це
               згуртована команда професіоналів, які з 2001 року надають комплекс
-              охоронних послуг. Звернувшись до нас, ви зможете замовити фізичну
-              та пультову охорону, пожежне спостереження, охорону публічних
-              заходів та багато іншого.
+              охоронних послуг у м.Вінниця. Звернувшись до нас, ви зможете
+              замовити фізичну та пультову охорону, пожежне спостереження,
+              охорону публічних заходів та багато іншого.
             </p>
             <p className="aboutCompany-description">
               В охоронній компанії працюють фахівці, які встановлять повний
@@ -26,7 +26,7 @@ export default function AboutCompany() {
           <div className="col-xxl-6 col-xl-6 col-lg-5 col-md-5">
             <img
               src={aboutCompany}
-              alt="companyPhoto"
+              alt="Охорона Вінниця | Фото команди"
               className="ps-3 company-staff-photo"
             ></img>
           </div>

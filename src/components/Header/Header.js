@@ -62,21 +62,21 @@ export default function Header() {
                 <img
                   src={photo1}
                   className="d-block header-company-photo"
-                  alt="photo1"
+                  alt="Охорона Вінниця | Фото працівників"
                 ></img>
               </div>
               <div className="carousel-item">
                 <img
                   src={photo2}
                   className="d-block header-company-photo"
-                  alt="photo2"
+                  alt="Охорона Вінниця | Фото працівників"
                 ></img>
               </div>
               <div className="carousel-item">
                 <img
                   src={photo3}
                   className="d-block header-company-photo"
-                  alt="photo2"
+                  alt="Охорона Вінниця | Фото працівників"
                 ></img>
               </div>
             </div>
